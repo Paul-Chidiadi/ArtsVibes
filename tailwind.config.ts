@@ -7,13 +7,22 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: "480px",
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+    },
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#FFB054",
+        faintBlack: "rgba(0, 0, 0, 0.5)",
+        secondary: "rgba(249, 150, 178, 0.11)",
+      },
+      fontFamily: {
+        lato: ['"Lato"', "sans-serif"],
       },
     },
   },
-  plugins: [],
 };
 export default config;
