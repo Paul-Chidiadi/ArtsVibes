@@ -11,21 +11,21 @@ export default function footer() {
               QUICK LINKS
             </h1>
             <div className="flex-col items-start justify-between gap-5 pl-3">
-              <h3 className="text-white md:text-base lg:text-xl font-normal font-lato mb-4">
+              <a className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block">
                 Home
-              </h3>
-              <h3 className="text-white md:text-base lg:text-xl font-normal font-lato mb-4">
+              </a>
+              <a className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block">
                 About Us
-              </h3>
-              <h3 className="text-white md:text-base lg:text-xl font-normal font-lato mb-4">
+              </a>
+              <a className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block">
                 Gallery
-              </h3>
-              <h3 className="text-white md:text-base lg:text-xl font-normal font-lato mb-4">
+              </a>
+              <a className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block">
                 Labari Prize
-              </h3>
-              <h3 className="text-white md:text-base lg:text-xl font-normal font-lato mb-4">
+              </a>
+              <a className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block">
                 Contact
-              </h3>
+              </a>
             </div>
           </div>
           <div className="flex-col items-start justify-between">
@@ -33,12 +33,12 @@ export default function footer() {
               LEGALS
             </h1>
             <div className="flex-col items-start justify-between gap-5 pl-3">
-              <h3 className="text-white md:text-base lg:text-xl font-normal font-lato mb-4">
+              <a className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block">
                 Terms and Agreement
-              </h3>
-              <h3 className="text-white md:text-base lg:text-xl font-normal font-lato mb-4">
+              </a>
+              <a className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block">
                 Privacy Policy
-              </h3>
+              </a>
             </div>
           </div>
           <div className="flex-col items-start justify-between">
