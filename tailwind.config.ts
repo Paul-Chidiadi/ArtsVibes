@@ -18,9 +18,11 @@ const config: Config = {
         primary: "#FFB054",
         faintBlack: "rgba(0, 0, 0, 0.5)",
         secondary: "rgba(249, 150, 178, 0.11)",
+        footer: "rgba(86, 71, 135, 1)",
       },
       fontFamily: {
         lato: ['"Lato"', "sans-serif"],
+        gothic: ['"Dela Gothic One"', "sans-serif"],
       },
     },
   },

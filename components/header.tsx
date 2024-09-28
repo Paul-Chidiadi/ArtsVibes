@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Header() {
   return (
     <>
-      <nav className="relative flex items-center justify-between w-full px-20 py-4 bg-white rounded-b-3xl">
+      <nav className="relative flex items-center justify-between w-full px-20 py-4 bg-white rounded-b-3xl z-50">
         <Image
-          className="w-20 h-auto md:w-24 lg:w-40 "
+          className="w-20 h-auto md:w-24 lg:w-40"
           src="/arts-vibes-logo.png"
           width={100}
           height={100}
