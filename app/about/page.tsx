@@ -38,7 +38,18 @@ export default function About() {
         </a>
       </div>
 
-      <div className="w-full px-8 py-12 md:py-32 md:px-20">
+      <div className="w-full px-8 py-12 md:py-20 md:px-20">
+        <div className="w-full flex items-center justify-end py-12">
+          <Image
+            className="w-0 md:w-fit -mr-20"
+            src="/Line 36.png"
+            width={250}
+            height={100}
+            quality={100}
+            alt="line-image"
+          />
+        </div>
+
         <h1 className="w-fit bg-primary px-4 py-1 rounded-lg font-gothic font-medium text-black text-lg shadow-custom-dark">
           About Us
         </h1>
@@ -60,12 +71,34 @@ export default function About() {
           the excellence of Northern Arts and Culture both in Nigeria and the
           world at Large.
         </p>
+
+        <div className="w-full flex items-center justify-start py-12">
+          <Image
+            className="w-0 md:w-fit -ml-20"
+            src="/Line 35.png"
+            width={250}
+            height={100}
+            quality={100}
+            alt="line-image"
+          />
+        </div>
       </div>
 
       <div className="w-full px-8 py-5 md:px-20">
         <h1 className="w-full p-4 font-gothic text-5xl md:text-8xl text-black text-center">
           MEET THE TEAM
         </h1>
+
+        <div className="w-full flex items-center justify-end py-12">
+          <Image
+            className="w-0 md:w-fit -mr-20"
+            src="/Line 35.png"
+            width={350}
+            height={100}
+            quality={100}
+            alt="line-image"
+          />
+        </div>
 
         <div className="flex flex-wrap gap-8 w-full justify-evenly items-start py-12">
           <Image

@@ -74,7 +74,7 @@ export default function footer() {
           </div>
         </div>
 
-        <div className="flex flex-col gap-5 items-start justify-between w-full mt-14 md:flex-row">
+        <div className="flex flex-col items-start justify-between w-full h-fit mt-14 md:flex-row">
           <Image
             className="w-28 md:w-48 lg:w-60"
             src="/arts-vibes-logo-2.png"
@@ -84,7 +84,7 @@ export default function footer() {
             alt="Art and Vibes Logo"
           />
 
-          <div className="flex-col w-full items-center justify-start">
+          <div className="flex-col w-fit lg:w-96 h-fit items-center justify-start">
             <h4 className="text-white text-base lg:text-xl font-normal font-lato mb-2">
               We will love to reach you! Subscribe to get
             </h4>
