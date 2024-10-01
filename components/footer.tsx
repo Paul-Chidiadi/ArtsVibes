@@ -84,17 +84,17 @@ export default function footer() {
             alt="Art and Vibes Logo"
           />
 
-          <div className="flex-col items-center justify-start">
+          <div className="flex-col w-full items-center justify-start">
             <h4 className="text-white text-base lg:text-xl font-normal font-lato mb-2">
               We will love to reach you! Subscribe to get
             </h4>
             <div className="flex items-center justify-between w-full bg-white px-3 py-2 rounded-lg">
               <input
-                className=" flex-1 border-none outline-none pr-5 py-1"
+                className="w-3/5 flex border-none outline-none pr-5 py-1"
                 type="email"
                 placeholder="Your Email..."
               />
-              <button className="bg-primary px-5 py-2 rounded-lg font-medium text-black cursor-pointer hover:text-faintBlack">
+              <button className="w-2/5 bg-primary px-5 py-2 rounded-lg font-medium text-black cursor-pointer hover:text-faintBlack">
                 Subscribe
               </button>
             </div>
