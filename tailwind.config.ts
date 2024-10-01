@@ -11,6 +11,7 @@ const config: Config = {
       sm: "480px",
       md: "768px",
       lg: "976px",
+      hsp: "1066px",
       xl: "1440px",
     },
     extend: {
@@ -19,6 +20,7 @@ const config: Config = {
         faintBlack: "rgba(0, 0, 0, 0.5)",
         secondary: "rgba(249, 150, 178, 0.11)",
         footer: "rgba(86, 71, 135, 1)",
+        smallColor: "#6C6A6A",
       },
       fontFamily: {
         lato: ['"Lato"', "sans-serif"],

@@ -54,7 +54,7 @@ export default function About() {
           About Us
         </h1>
 
-        <p className=" w-full font-lato text-xl textr-black italic mt-12">
+        <p className=" w-full font-lato text-base md:text-xl text-black italic mt-12">
           ARTS & VIBES is a platform that brings a host of multidisciplinary
           artists in the northern part of Nigeria together, bridging gaps and
           ensuring a space for the next generation of artists to explore, earn,
@@ -64,7 +64,7 @@ export default function About() {
           its budding artistic and literary scene.
         </p>
 
-        <p className=" w-full font-lato text-xl textr-black italic mt-12">
+        <p className=" w-full font-lato text-base md:text-xl text-black italic mt-12">
           Hence, Art is a prominent thing for stripping people of their inherent
           social labels and offering true unification, in spite of class,
           status, and tribe. Our goal is to build an identity around publicizing

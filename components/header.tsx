@@ -15,19 +15,21 @@ export default function Header() {
         id="top"
         className="relative flex items-center justify-between w-full px-8 py-4 bg-white md:px-20  md:rounded-b-3xl z-50"
       >
-        <Image
-          className="w-24 h-auto md:w-24 lg:w-40"
-          src="/arts-vibes-logo.png"
-          width={100}
-          height={100}
-          quality={100}
-          alt="Art and Vibes Logo"
-        />
+        <a href="/">
+          <Image
+            className="w-24 h-auto md:w-24 lg:w-40"
+            src="/arts-vibes-logo.png"
+            width={100}
+            height={100}
+            quality={100}
+            alt="Art and Vibes Logo"
+          />
+        </a>
 
         {/* MENU ITEMS AT LARGE SCREEN */}
         <div className="hidden lg:flex items-center justify-between w-2/5">
           <a
-            href="#"
+            href="/"
             className="hover:text-black cursor-pointer font-lato font-medium text-faintBlack text-lg"
           >
             Home
@@ -67,7 +69,7 @@ export default function Header() {
             } lg:hidden`}
           >
             <a
-              href="#"
+              href="/"
               className="hover:text-black cursor-pointer font-lato font-medium text-white text-base"
             >
               Home
