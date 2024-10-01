@@ -11,7 +11,10 @@ export default function Header() {
 
   return (
     <>
-      <nav className="relative flex items-center justify-between w-full px-8 py-4 bg-white md:px-20  md:rounded-b-3xl z-50">
+      <nav
+        id="top"
+        className="relative flex items-center justify-between w-full px-8 py-4 bg-white md:px-20  md:rounded-b-3xl z-50"
+      >
         <Image
           className="w-24 h-auto md:w-24 lg:w-40"
           src="/arts-vibes-logo.png"
@@ -30,7 +33,7 @@ export default function Header() {
             Home
           </a>
           <a
-            href="#"
+            href="/about"
             className="hover:text-black cursor-pointer font-lato font-medium text-faintBlack text-lg"
           >
             About
@@ -70,7 +73,7 @@ export default function Header() {
               Home
             </a>
             <a
-              href="#"
+              href="/about"
               className="hover:text-black cursor-pointer font-lato font-medium text-white text-base"
             >
               About

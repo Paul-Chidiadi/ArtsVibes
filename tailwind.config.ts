@@ -24,6 +24,9 @@ const config: Config = {
         lato: ['"Lato"', "sans-serif"],
         gothic: ['"Dela Gothic One"', "sans-serif"],
       },
+      boxShadow: {
+        "custom-dark": "7px 5px 5px rgba(0, 0, 0, 1)",
+      },
     },
   },
 };
