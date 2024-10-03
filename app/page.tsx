@@ -149,7 +149,7 @@ export default function Home() {
         </div>
       </div>
 
-      <h1 className="w-full flex justify-center items-center text-center text-black font-gothic gap-2">
+      <h1 className="w-full flex justify-center items-center text-center text-black font-gothic gap-2 mt-10 md:mt-40">
         <Image
           className="w-7 h-auto md:w-11"
           src="/Frame 38562.png"
@@ -163,13 +163,13 @@ export default function Home() {
         </span>
       </h1>
 
-      <div className="h-fit w-full flex flex-col hsp:flex-row justify-start items-center px-8 py-28 md:py-28 hsp:py-7 md:px-20">
+      <div className="h-fit w-full flex flex-col hsp:flex-row justify-start items-center px-8 py-10 md:py-28 hsp:py-7 md:px-20">
         <div className="w-full hsp:w-1/2 flex flex-col justify-start items-start">
-          <h1 className="w-fit bg-primary px-4 py-1 rounded-lg font-gothic font-medium text-black text-lg shadow-custom-dark mt-11">
+          <h1 className="w-fit bg-primary px-4 py-1 rounded-lg font-gothic font-medium text-black text-lg shadow-custom-dark mt-3 md:mt-11">
             Who we are?
           </h1>
 
-          <p className="w-full font-lato text-base md:text-xl text-black mt-11">
+          <p className="w-full font-lato text-base md:text-2xl text-black mt-11">
             Arts & Vibes was founded in 2021, with a goal of bringing writers
             and poets together, to share, exchange and build community. Now,
             Arts & Vibes has grown to platform that gives home to arts of many
@@ -178,6 +178,174 @@ export default function Home() {
             northern Nigeria and beyond.
           </p>
         </div>
+
+        <div className="hidden hsp:w-1/2 md:flex md:w-full justify-center items-start py-12">
+          <Image
+            className="w-4/5"
+            src="/Group 34700.png"
+            width={138}
+            height={137}
+            quality={100}
+            alt="team"
+          />
+        </div>
+      </div>
+
+      <div className="flex w-full items-center justify-end gap-5 px-8 py-8 md:py-20 md:px-20">
+        <Image
+          className="w-7 h-auto md:w-11"
+          src="/Frame 38562.png"
+          width={44}
+          height={25}
+          quality={100}
+          alt="line"
+        />
+        <p className="font-lato text-black text-base w-full md:w-2/5">
+          So come and discover the art of vibing with us, and let us help you
+          create a home that’s truly inspiring.{" "}
+        </p>
+      </div>
+
+      <div className="w-full flex items-center justify-start py-12">
+        <Image
+          className="w-0 md:w-96"
+          src="/Line 35.png"
+          width={250}
+          height={100}
+          quality={100}
+          alt="line-image"
+        />
+      </div>
+
+      <div className="bg-[url('/Rectangle 118.png')] bg-white bg-no-repeat bg-contain bg-center h-fit w-full px-8 py-8 md:py-28 md:px-20">
+        <div className="w-full flex items-center justify-end">
+          <Image
+            className="w-0 md:w-96 -mr-20 -mb-24"
+            src="/Line 36.png"
+            width={250}
+            height={100}
+            quality={100}
+            alt="line-image"
+          />
+        </div>
+
+        <h1 className="w-full flex justify-center items-center text-center text-black font-gothic gap-2">
+          <Image
+            className="w-7 h-auto md:w-11"
+            src="/Frame 38562.png"
+            width={44}
+            height={25}
+            quality={100}
+            alt="line"
+          />
+          <span className="text-center text-black font-gothic text-2xl md:text-6xl">
+            EVENTS
+          </span>
+        </h1>
+        <p className="font-lato text-black text-base w-full text-center">
+          To participate you need to register for the event
+        </p>
+
+        <div className="flex flex-wrap gap-6 w-full justify-evenly items-start py-12 mt-8 md:mt-10">
+          <Image
+            className="flex-1 rounded-2xl"
+            src="/image 68-2.png"
+            width={335}
+            height={150}
+            quality={100}
+            alt="team"
+          />
+          <Image
+            className="flex-1 rounded-2xl"
+            src="/image 68.png"
+            width={335}
+            height={150}
+            quality={100}
+            alt="team"
+          />
+          <Image
+            className="flex-1 rounded-2xl"
+            src="/image 68-1.png"
+            width={335}
+            height={150}
+            quality={100}
+            alt="team"
+          />
+        </div>
+      </div>
+
+      {/* BRANDS */}
+      <div className="flex flex-wrap gap-6 w-full justify-evenly items-start mt-8 md:mt-10 px-8 py-8 md:py-12 md:px-20">
+        <Image
+          className="flex-1"
+          src="/Clean tech-3.png"
+          width={335}
+          height={150}
+          quality={100}
+          alt="brands"
+        />
+        <Image
+          className="flex-1"
+          src="/image 25.png"
+          width={335}
+          height={150}
+          quality={100}
+          alt="brands"
+        />
+        <Image
+          className="flex-1"
+          src="/Clean tech-1.png"
+          width={335}
+          height={150}
+          quality={100}
+          alt="brands"
+        />
+        <Image
+          className="flex-1"
+          src="/Clean tech-2.png"
+          width={335}
+          height={150}
+          quality={100}
+          alt="brands"
+        />
+      </div>
+
+      <div className="w-full px-8 py-5 md:px-20">
+        <h1 className="relative w-full text-3xl md:py-4 font-gothic md:text-5xl lg:text-8xl text-black text-center">
+          WE CREATE
+          <Image
+            className="absolute hidden md:block bottom-0 w-1/5 md:w-1/3 md:-bottom-3 right-1/4"
+            src="/Line 39.png"
+            width={250}
+            height={100}
+            quality={100}
+            alt="line-image"
+          />
+        </h1>
+        <h1 className="relative w-full text-3xl md:py-4 font-gothic md:text-5xl lg:text-8xl text-black text-center">
+          THEREFORE WE ART
+          <Image
+            className="absolute hidden md:block bottom-0 w-1/5 md:w-1/3 md:-bottom-3 right-1/4"
+            src="/Line 39.png"
+            width={250}
+            height={100}
+            quality={100}
+            alt="line-image"
+          />
+        </h1>
+      </div>
+
+      <div className="w-full flex items-start justify-end py-5 pr-11 md:py-10 md:pr-24">
+        <a href="#top">
+          <Image
+            className="cursor-pointer w-10 md:w-14"
+            src="/Frame 179.png"
+            width={56}
+            height={56}
+            quality={100}
+            alt="top-image"
+          />
+        </a>
       </div>
     </>
   );

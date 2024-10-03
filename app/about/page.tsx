@@ -41,7 +41,7 @@ export default function About() {
       <div className="w-full px-8 py-12 md:py-20 md:px-20">
         <div className="w-full flex items-center justify-end py-12">
           <Image
-            className="w-0 md:w-fit -mr-20"
+            className="w-0 md:w-80 -mr-20"
             src="/Line 36.png"
             width={250}
             height={100}
@@ -74,7 +74,7 @@ export default function About() {
 
         <div className="w-full flex items-center justify-start py-12">
           <Image
-            className="w-0 md:w-fit -ml-20"
+            className="w-0 md:w-80 -ml-20"
             src="/Line 35.png"
             width={250}
             height={100}
@@ -91,7 +91,7 @@ export default function About() {
 
         <div className="w-full flex items-center justify-end py-12">
           <Image
-            className="w-0 md:w-fit -mr-20"
+            className="w-0 md:w-80 -mr-20"
             src="/Line 35.png"
             width={350}
             height={100}
