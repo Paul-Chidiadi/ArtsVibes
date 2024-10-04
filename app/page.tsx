@@ -22,13 +22,10 @@ export default function Home() {
             </h1>
 
             <p className="w-full font-lato text-base md:text-xl text-black italic mt-5">
-              Immerse yourself in a celebration of artistic expression at
-              ARTSANDVIBES. Join us to experience an extraordinary showcase of
-              artwork from visionary artists across KADUNA, along with
-              interactive sessions, live demos, and engaging talks on the future
-              of art and culture. Whether you're an art enthusiast or simply
-              curious, this event promises inspiration at every corner. Don't
-              miss out—register today to be part of the experience!
+              Arts & Vibes 2024 - Mindscapes of the North. Join us as we take a
+              deep dive into the mindscapes of northern Nigeria, revealing the
+              complex layers of the thoughts, emotions, and lived experiences of
+              the Arewa artists and people.
             </p>
             <a
               href="https://events.sycamore.ng/events/av2024"
