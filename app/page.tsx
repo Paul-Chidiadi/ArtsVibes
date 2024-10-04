@@ -1,8 +1,40 @@
 import Image from "next/image";
+import Swiper from "../components/swiper";
 
 export default function Home() {
   return (
     <>
+      {/* UPCOMING EVENTS */}
+      <div className="w-full bg-notify px-8 py-8 md:py-8 md:px-20 mt-12">
+        <div className="w-full flex flex-col justify-start gap-10 lg:flex-row lg:justify-center lg:items-center">
+          <div className="flex-1">
+            <Swiper />
+          </div>
+
+          <div className="flex-1">
+            <h1 className="font-lato font-bold text-black text-3xl md:text-5xl">
+              Upcoming Event
+            </h1>
+
+            <p className="w-full font-lato text-base md:text-xl text-black italic mt-5">
+              Immerse yourself in a celebration of artistic expression at
+              ARTSANDVIBES. Join us to experience an extraordinary showcase of
+              artwork from visionary artists across KADUNA, along with
+              interactive sessions, live demos, and engaging talks on the future
+              of art and culture. Whether you're an art enthusiast or simply
+              curious, this event promises inspiration at every corner. Don't
+              miss out—register today to be part of the experience!
+            </p>
+            <a
+              href="mailto:"
+              className="flex w-40 mt-5 items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base cursor-pointer hover:text-faintBlack"
+            >
+              REGISTER NOW
+            </a>
+          </div>
+        </div>
+      </div>
+
       <div className="bg-[url('/Rectangle 117.png')] bg-secondary bg-no-repeat bg-contain bg-center h-fit w-full flex flex-col hsp:flex-row justify-start items-center px-8 py-28 md:py-28 hsp:py-7 md:px-20">
         <div className="w-full hsp:w-1/2 flex flex-col justify-start items-start">
           <h1 className="w-fit bg-primary px-4 py-1 rounded-lg font-gothic font-medium text-black text-lg shadow-custom-dark">
@@ -28,10 +60,10 @@ export default function Home() {
             social and behavioural change.
           </p>
 
-          <div className="w-fit flex items-center justify-start gap-4 mt-6">
+          <div className="w-fit flex flex-col md:flex-row items-start md:items-center justify-start gap-4 mt-6">
             <a
               href="/about"
-              className="flex flex-row items-center justify-center gap-5 bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-lg cursor-pointer hover:text-faintBlack"
+              className="flex flex-row items-center justify-center gap-2 md:gap-5 bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base md:text-lg cursor-pointer hover:text-faintBlack"
             >
               About us{" "}
               <Image
@@ -45,7 +77,7 @@ export default function Home() {
             </a>
             <a
               href="#"
-              className="flex flex-row items-center justify-center gap-5 bg-white px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-lg cursor-pointer hover:text-faintBlack"
+              className="flex flex-row items-center justify-center gap-2 md:gap-5 bg-white px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base md:text-lg cursor-pointer hover:text-faintBlack"
             >
               <Image
                 className="w-2 h-auto md:w-3"

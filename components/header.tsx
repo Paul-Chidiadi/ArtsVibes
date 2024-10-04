@@ -13,7 +13,7 @@ export default function Header() {
     <>
       <nav
         id="top"
-        className="relative flex items-center justify-between w-full px-8 py-4 bg-white md:px-20  md:rounded-b-3xl z-50"
+        className="fixed top-0 left-0 right-0 flex items-center justify-between w-full px-8 py-4 bg-white md:px-20  md:rounded-b-3xl z-50"
       >
         <a href="/">
           <Image

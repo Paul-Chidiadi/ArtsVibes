@@ -21,6 +21,7 @@ const config: Config = {
         secondary: "rgba(249, 150, 178, 0.11)",
         footer: "rgba(86, 71, 135, 1)",
         smallColor: "#6C6A6A",
+        notify: "#FFE0B2",
       },
       fontFamily: {
         lato: ['"Lato"', "sans-serif"],

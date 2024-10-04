@@ -54,7 +54,7 @@ export default function About() {
           About Us
         </h1>
 
-        <p className=" w-full font-lato text-base md:text-xl text-black italic mt-12">
+        <p className="w-full font-lato text-base md:text-xl text-black italic mt-12">
           ARTS & VIBES is a platform that brings a host of multidisciplinary
           artists in the northern part of Nigeria together, bridging gaps and
           ensuring a space for the next generation of artists to explore, earn,
