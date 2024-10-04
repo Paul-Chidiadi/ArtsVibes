@@ -31,7 +31,7 @@ export default function Home() {
               miss out—register today to be part of the experience!
             </p>
             <a
-              href="mailto:"
+              href="https://events.sycamore.ng/events/av2024"
               className="flex w-40 mt-5 items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base cursor-pointer hover:text-faintBlack"
             >
               REGISTER NOW
