@@ -3,7 +3,10 @@ import Image from "next/image";
 export default function About() {
   return (
     <>
-      <div className="bg-[url('/about.png')] bg-cover bg-center bg-no-repeat h-screen w-full flex flex-col justify-center items-center relative">
+      <div
+        id="top"
+        className="bg-[url('/about.png')] bg-cover bg-center bg-no-repeat h-screen w-full flex flex-col justify-center items-center relative"
+      >
         <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-75"></div>
         <h1 className="text-primary text-5xl md:text-8xl lg:text-9xl text-center w-full font-normal font-gothic mb-4 pb-3 relative z-10">
           About Us

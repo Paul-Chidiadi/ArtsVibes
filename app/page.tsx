@@ -5,7 +5,10 @@ export default function Home() {
   return (
     <>
       {/* UPCOMING EVENTS */}
-      <div className="w-full bg-notify px-8 py-8 md:py-8 md:px-20 mt-12">
+      <div
+        id="top"
+        className="w-full bg-notify px-8 py-8 md:py-8 md:px-20 mt-12"
+      >
         <div className="w-full flex flex-col justify-start gap-10 lg:flex-row lg:justify-center lg:items-center">
           <div className="flex-1">
             <Swiper />

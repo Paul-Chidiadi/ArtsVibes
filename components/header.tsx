@@ -11,10 +11,7 @@ export default function Header() {
 
   return (
     <>
-      <nav
-        id="top"
-        className="fixed top-0 left-0 right-0 flex items-center justify-between w-full px-8 py-4 bg-white md:px-20  md:rounded-b-3xl z-50"
-      >
+      <nav className="fixed top-0 left-0 right-0 flex items-center justify-between w-full px-8 py-4 bg-white md:px-20  md:rounded-b-3xl z-50">
         <a href="/">
           <Image
             className="w-24 h-auto md:w-24 lg:w-40"
