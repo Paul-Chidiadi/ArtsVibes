@@ -16,6 +16,8 @@ export default function Home() {
 
           <div className="flex-1">
             <h1 className="font-lato font-bold text-black text-3xl md:text-5xl">
+              <i className="bx bxs-bell bx-tada text-5xl font-bold text-footer"></i>
+              {"  "}
               Upcoming Event
             </h1>
 
