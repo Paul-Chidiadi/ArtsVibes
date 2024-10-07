@@ -44,7 +44,7 @@ export default function Header() {
             Events
           </a>
           <a
-            href="#"
+            href="/gallery"
             className="hover:text-black cursor-pointer font-lato font-medium text-faintBlack text-lg"
           >
             Gallery

@@ -37,7 +37,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-[url('/Rectangle 117.png')] bg-secondary bg-no-repeat bg-contain bg-center h-fit w-full flex flex-col hsp:flex-row justify-start items-center px-8 py-28 md:py-28 hsp:py-7 md:px-20">
+      <div className="bg-[url('/Rectangle 117.png')] bg-secondary bg-no-repeat bg-contain bg-center h-fit w-full flex flex-col hsp:flex-row justify-center items-center px-8 py-28 md:py-28 md:px-20 gap-10">
         <div className="w-full hsp:w-1/2 flex flex-col justify-start items-start">
           <h1 className="w-fit bg-primary px-4 py-1 rounded-lg font-gothic font-medium text-black text-lg shadow-custom-dark">
             EMPOWERING
@@ -94,44 +94,36 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="hidden lg:flex flex-wrap gap-8 hsp:w-1/2 justify-evenly items-start py-12">
+        <div className="hidden mt-6 md:mt-0 lg:grid grid-cols-2 gap-2">
           <Image
-            className=""
-            src="/Group 34691.png"
-            width={138}
-            height={137}
+            className="w-72 h-64 object-cover rounded-lg"
+            src="/heroimage4.JPG"
+            width={200}
+            height={100}
             quality={100}
             alt="team"
           />
           <Image
-            className=""
-            src="/Group 34694.png"
-            width={241}
-            height={240}
+            className="w-72 h-64 object-cover rounded-lg"
+            src="/heroimage5.JPG"
+            width={200}
+            height={100}
             quality={100}
             alt="team"
           />
           <Image
-            className=""
-            src="/Group 34695.png"
-            width={328}
-            height={326}
+            className="w-72 h-64 object-cover rounded-lg"
+            src="/heroimage6.JPG"
+            width={200}
+            height={100}
             quality={100}
             alt="team"
           />
           <Image
-            className=""
-            src="/Group 34696.png"
-            width={210}
-            height={209}
-            quality={100}
-            alt="team"
-          />
-          <Image
-            className=""
-            src="/Group 34692.png"
-            width={211}
-            height={209}
+            className="w-72 h-64 object-cover rounded-lg"
+            src="/heroimage8.JPG"
+            width={200}
+            height={100}
             quality={100}
             alt="team"
           />
