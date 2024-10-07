@@ -22,6 +22,7 @@ const config: Config = {
         footer: "rgba(86, 71, 135, 1)",
         smallColor: "#6C6A6A",
         notify: "#FFE0B2",
+        input: "#DEDEDE",
       },
       fontFamily: {
         lato: ['"Lato"', "sans-serif"],

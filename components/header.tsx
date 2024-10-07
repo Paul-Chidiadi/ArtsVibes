@@ -50,7 +50,7 @@ export default function Header() {
             Gallery
           </a>
           <a
-            href="#"
+            href="/labari"
             className="hover:text-black cursor-pointer font-lato font-medium text-faintBlack text-lg"
           >
             Labari Prize
@@ -84,19 +84,19 @@ export default function Header() {
               Events
             </a>
             <a
-              href="#"
+              href="/gallery"
               className="hover:text-black cursor-pointer font-lato font-medium text-white text-base"
             >
               Gallery
             </a>
             <a
-              href="#"
+              href="/labari"
               className="hover:text-black cursor-pointer font-lato font-medium text-white text-base"
             >
               Labari Prize
             </a>
             <a
-              href="mailto:"
+              href="/contact"
               className="flex items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base cursor-pointer hover:text-faintBlack"
             >
               Contact
@@ -105,7 +105,7 @@ export default function Header() {
         )}
 
         <a
-          href="mailto:"
+          href="/contact"
           className="hidden lg:flex items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-lg cursor-pointer hover:text-faintBlack"
         >
           Contact
