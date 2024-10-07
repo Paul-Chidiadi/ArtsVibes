@@ -56,14 +56,16 @@ export default function Labari() {
               alt="line-image"
             />
           </a>
-          <Image
-            className="w-full md:w-96"
-            src="/Frame 38558.png"
-            width={660}
-            height={430}
-            quality={100}
-            alt="line-image"
-          />
+          <a href="/labari/entryfour">
+            <Image
+              className="w-full md:w-96"
+              src="/Frame 38558.png"
+              width={660}
+              height={430}
+              quality={100}
+              alt="line-image"
+            />
+          </a>
         </div>
       </div>
 

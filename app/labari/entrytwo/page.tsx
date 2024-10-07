@@ -3,13 +3,16 @@ import Image from "next/image";
 export default function Labari() {
   return (
     <>
-      <div id="top" className="w-full px-8 py-7 md:px-20 md:py-28 mt-12">
+      <div
+        id="top"
+        className="relative w-full px-8 py-7 md:px-20 md:py-28 mt-12"
+      >
         <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl text-black text-center">
           The Resilient Symphony of Us
         </h1>
 
         <h4 className="w-full font-lato font-bold text-xl md:text-4xl text-black text-center mt-10">
-          Deborah Usidamen
+          DEBORAH USIDAMEN
         </h4>
 
         <p className="w-full font-lato font-medium text-lg text-black text-left mt-10">
@@ -61,6 +64,15 @@ export default function Labari() {
             alt="twitter"
           />
         </div>
+
+        <Image
+          className="hidden absolute md:block bottom-3 right-3"
+          src="/Frame 38551.png"
+          width={300}
+          height={300}
+          quality={100}
+          alt="user"
+        />
       </div>
     </>
   );
