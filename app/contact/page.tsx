@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <>
       <div className="w-full h-fit flex justify-between items-center gap-9 px-8 py-8 md:py-8 md:px-20 mt-40">
-        <div className="flex-1 gap-8">
+        <div className="w-full md:flex-1 gap-8">
           <h3 className="w-full py-4 font-gothic text-xl md:text-3xl text-black text-left">
             We would love to hear from you
           </h3>
@@ -50,13 +50,13 @@ export default function Contact() {
             </div>
             <a
               href="#"
-              className="hidden lg:flex items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-lg cursor-pointer hover:text-faintBlack"
+              className="w-full md:w-fit flex items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-lg cursor-pointer hover:text-faintBlack"
             >
               Send a message
             </a>
           </form>
         </div>
-        <div className="bg-[url('/_DSF5348.jpg')] bg-cover bg-center bg-no-repeat h-[520px] w-1/2 border-[20px] border-primary rounded-tl-full flex flex-col justify-center items-center gap-10 relative px-8 py-28"></div>
+        <div className="hidden bg-[url('/_DSF5348.jpg')] bg-cover bg-center bg-no-repeat h-[520px] w-1/2 border-[20px] border-primary rounded-tl-full md:flex flex-col justify-center items-center gap-10 relative px-8 py-28"></div>
       </div>
       <div className="w-full flex items-start justify-end py-5 pr-11 md:py-10 md:pr-24">
         <a href="#top">
