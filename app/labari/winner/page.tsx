@@ -71,8 +71,8 @@ export default function Labari() {
         <Image
           className="hidden absolute md:block bottom-3 right-3"
           src="/Frame 38550.png"
-          width={300}
-          height={300}
+          width={250}
+          height={250}
           quality={100}
           alt="user"
         />

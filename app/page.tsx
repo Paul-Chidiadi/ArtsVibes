@@ -40,7 +40,7 @@ export default function Home() {
       <div className="bg-[url('/Rectangle 117.png')] bg-secondary bg-no-repeat bg-contain bg-center h-fit w-full flex flex-col hsp:flex-row justify-center items-center px-8 py-28 md:py-28 md:px-20 gap-10">
         <div className="w-full hsp:w-1/2 flex flex-col justify-start items-start">
           <h1 className="w-fit bg-primary px-4 py-1 rounded-lg font-gothic font-medium text-black text-lg shadow-custom-dark">
-            EMPOWERING
+            WE EMPOWER
           </h1>
           <h1 className="w-fit py-4 font-gothic text-2xl md:text-5xl text-black text-left">
             Northern Artists To Showcase Their Talent{" "}
@@ -78,7 +78,7 @@ export default function Home() {
               />
             </a>
             <a
-              href="#"
+              href="https://youtube.com/@theartsandvibes?si=p5qkCsp84L5hXqV6"
               className="flex flex-row items-center justify-center gap-2 md:gap-5 bg-white px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base md:text-lg cursor-pointer hover:text-faintBlack"
             >
               <Image
@@ -197,9 +197,9 @@ export default function Home() {
 
           <p className="w-full font-lato text-base md:text-2xl text-black mt-11">
             Arts & Vibes was founded in 2021, with a goal of bringing writers
-            and poets together, to share, exchange and build community. Now,
-            Arts & Vibes has grown to platform that gives home to arts of many
-            disciplines including visual and performing with workshop and
+            and poets together to share, exchange and build community. Now, Arts
+            & Vibes has grown into a platform that is home to arts of many
+            disciplines, including visual and performing arts, with workshop and
             initiatives that can further empower the artists and youth in
             northern Nigeria and beyond.
           </p>

@@ -11,19 +11,34 @@ export default function footer() {
               QUICK LINKS
             </h1>
             <div className="flex-col items-start justify-between gap-5 pl-3">
-              <a className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block">
+              <a
+                href="/"
+                className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block"
+              >
                 Home
               </a>
-              <a className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block">
+              <a
+                href="/about"
+                className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block"
+              >
                 About Us
               </a>
-              <a className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block">
+              <a
+                href="/gallery"
+                className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block"
+              >
                 Gallery
               </a>
-              <a className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block">
+              <a
+                href="/labari"
+                className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block"
+              >
                 Labari Prize
               </a>
-              <a className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block">
+              <a
+                href="/contact"
+                className="text-white md:text-base lg:text-xl font-normal font-lato mb-4 hover:text-primary cursor-pointer block"
+              >
                 Contact
               </a>
             </div>
@@ -47,22 +62,26 @@ export default function footer() {
             </h1>
             <div className="flex-col items-start justify-between gap-5 pl-3">
               <div className="flex items-center justify-start gap-5 mb-4">
-                <Image
-                  className="hover:w-12 cursor-pointer"
-                  src="/Group 64.png"
-                  width={45}
-                  height={45}
-                  quality={100}
-                  alt="instagram"
-                />
-                <Image
-                  className="hover:w-12 cursor-pointer"
-                  src="/Group 61.png"
-                  width={45}
-                  height={45}
-                  quality={100}
-                  alt="twitter"
-                />
+                <a href="https://www.instagram.com/theartsandvibes?igsh=MW9zbnQ4ZWg3a2dpcA==">
+                  <Image
+                    className="hover:w-12 cursor-pointer"
+                    src="/Group 64.png"
+                    width={45}
+                    height={45}
+                    quality={100}
+                    alt="instagram"
+                  />
+                </a>
+                <a href="https://x.com/theartsandvibes?s=21">
+                  <Image
+                    className="hover:w-12 cursor-pointer"
+                    src="/Group 61.png"
+                    width={45}
+                    height={45}
+                    quality={100}
+                    alt="twitter"
+                  />
+                </a>
               </div>
               <h3 className="text-white md:text-base lg:text-xl font-normal font-lato mb-4">
                 artxvibes@gmail.com
@@ -94,9 +113,14 @@ export default function footer() {
                 type="email"
                 placeholder="Your Email..."
               />
-              <button className="w-2/5 bg-primary px-5 py-2 rounded-lg font-medium text-black cursor-pointer hover:text-faintBlack">
-                Subscribe
-              </button>
+              <a
+                className="w-2/5"
+                href="mailto:artxvibes@gmail.com?subject=Subscribe to Newsletter&body=I want to subscribe to the newsletter."
+              >
+                <button className="w-full bg-primary px-5 py-2 rounded-lg font-medium text-black cursor-pointer hover:text-faintBlack">
+                  Subscribe
+                </button>
+              </a>
             </div>
           </div>
         </div>

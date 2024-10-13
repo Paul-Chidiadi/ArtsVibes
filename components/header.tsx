@@ -38,7 +38,7 @@ export default function Header() {
             About
           </a>
           <a
-            href="#"
+            href="/events"
             className="hover:text-black cursor-pointer font-lato font-medium text-faintBlack text-lg"
           >
             Events
@@ -78,7 +78,7 @@ export default function Header() {
               About
             </a>
             <a
-              href="#"
+              href="/events"
               className="hover:text-black cursor-pointer font-lato font-medium text-white text-base"
             >
               Events

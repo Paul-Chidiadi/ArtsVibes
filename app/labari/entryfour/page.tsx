@@ -3,7 +3,10 @@ import Image from "next/image";
 export default function Labari() {
   return (
     <>
-      <div id="top" className="w-full px-8 py-7 md:px-20 md:py-28 mt-12">
+      <div
+        id="top"
+        className="relative w-full px-8 py-7 md:px-20 md:py-28 mt-12"
+      >
         <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl text-black text-center">
           Being Nigerian
         </h1>
@@ -96,6 +99,14 @@ export default function Labari() {
             alt="twitter"
           />
         </div>
+        <Image
+          className="hidden absolute md:block bottom-3 right-3"
+          src="/avatar.png"
+          width={250}
+          height={250}
+          quality={100}
+          alt="user"
+        />
       </div>
     </>
   );
