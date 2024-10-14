@@ -1,6 +1,21 @@
+"use client";
 import Image from "next/image";
+import React, { useState } from "react";
 
 export default function Contact() {
+  const [contactData, setContactData] = useState({
+    fullName: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleChange = (event: any) => {
+    setContactData((prev) => {
+      return { ...prev, [event.target.name]: event.target.value };
+    });
+  };
+
   return (
     <>
       <div className="w-full h-fit flex justify-between items-center gap-9 px-8 py-8 md:py-8 md:px-20 mt-40">
@@ -16,7 +31,11 @@ export default function Contact() {
               <input
                 className="w-full h-11 px-3 rounded-sm outline-none bg-input font-poppins font-normal text-madeinblacc text-sm"
                 type="text"
+                name="fullName"
                 placeholder="Enter your full name"
+                value={contactData.fullName}
+                required
+                onChange={(event) => handleChange(event)}
               />
             </div>
             <div className="w-full flex flex-col gap-3">
@@ -26,17 +45,25 @@ export default function Contact() {
               <input
                 className="w-full h-11 px-3 rounded-sm outline-none bg-input font-poppins font-normal text-madeinblacc text-sm"
                 type="email"
+                name="email"
                 placeholder="Enter your email"
+                value={contactData.email}
+                required
+                onChange={(event) => handleChange(event)}
               />
             </div>
             <div className="w-full flex flex-col gap-3">
               <label className="font-gothic font-semibold text-left text-base text-black">
-                Contact Us
+                Contact
               </label>
               <input
                 className="w-full h-11 px-3 rounded-sm outline-none bg-input font-poppins font-normal text-madeinblacc text-sm"
                 type="+234"
-                placeholder="Enter your full name"
+                name="phone"
+                placeholder="Enter contact"
+                value={contactData.phone}
+                required
+                onChange={(event) => handleChange(event)}
               />
             </div>
             <div className="w-full flex flex-col gap-3">
@@ -46,10 +73,22 @@ export default function Contact() {
               <textarea
                 className="w-full h-48 px-3 rounded-sm outline-none bg-input font-poppins font-normal text-madeinblacc text-sm"
                 placeholder="Enter Text here"
+                name="message"
+                value={contactData.message}
+                required
+                onChange={(event) => handleChange(event)}
               ></textarea>
             </div>
             <a
-              href="#"
+              href={
+                Object.values(contactData).every((item) => item.length > 0)
+                  ? `mailto:artxvibes@gmail.com?subject=Contact%20Form&body=
+              Name: ${contactData.fullName}%0D%0A
+              Email: ${contactData.email}%0D%0A
+              Contact: ${contactData.phone}%0D%0A
+              Message: ${contactData.message}`
+                  : "#"
+              }
               className="w-full md:w-fit flex items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-lg cursor-pointer hover:text-faintBlack"
             >
               Send a message
