@@ -1,6 +1,12 @@
 "use client";
 import Image from "next/image";
 import React, { useState } from "react";
+import { areValuesEmpty, validateRegistration } from "../../utils/util";
+
+interface stateType {
+  show: boolean;
+  message: string | boolean;
+}
 
 export default function Contact() {
   const [contactData, setContactData] = useState({
@@ -9,11 +15,45 @@ export default function Contact() {
     phone: "",
     message: "",
   });
+  const [errorStats, setErrorStats] = useState<stateType>({
+    show: false,
+    message: "",
+  });
 
   const handleChange = (event: any) => {
     setContactData((prev) => {
       return { ...prev, [event.target.name]: event.target.value };
     });
+  };
+
+  const sendMessage = () => {
+    const isEmpty = areValuesEmpty(contactData);
+    if (isEmpty) {
+      setErrorStats({
+        show: true,
+        message: "Fields are empty",
+      });
+      return "#";
+    }
+    const validate = validateRegistration(contactData.email, contactData.phone);
+
+    if (validate !== true) {
+      setErrorStats({
+        show: true,
+        message: validate,
+      });
+      return "#";
+    }
+    setErrorStats({
+      show: false,
+      message: "validate",
+    });
+    const mailtoLink = `mailto:artxvibes@gmail.com?subject=Contact%20Form&body=
+    Name: ${contactData.fullName}%0D%0A
+    Email: ${contactData.email}%0D%0A
+    Contact: ${contactData.phone}%0D%0A
+    Message: ${contactData.message}`;
+    window.location.href = mailtoLink;
   };
 
   return (
@@ -58,9 +98,9 @@ export default function Contact() {
               </label>
               <input
                 className="w-full h-11 px-3 rounded-sm outline-none bg-input font-poppins font-normal text-madeinblacc text-sm"
-                type="+234"
+                type="phone"
                 name="phone"
-                placeholder="Enter contact"
+                placeholder="+234"
                 value={contactData.phone}
                 required
                 onChange={(event) => handleChange(event)}
@@ -79,16 +119,13 @@ export default function Contact() {
                 onChange={(event) => handleChange(event)}
               ></textarea>
             </div>
+            {errorStats.show && (
+              <div className="w-full rounded bg-red-400 font-poppins font-normal text-sm text-white py-2 px-3">
+                {errorStats.message}
+              </div>
+            )}
             <a
-              href={
-                Object.values(contactData).every((item) => item.length > 0)
-                  ? `mailto:artxvibes@gmail.com?subject=Contact%20Form&body=
-              Name: ${contactData.fullName}%0D%0A
-              Email: ${contactData.email}%0D%0A
-              Contact: ${contactData.phone}%0D%0A
-              Message: ${contactData.message}`
-                  : "#"
-              }
+              onClick={sendMessage}
               className="w-full md:w-fit flex items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-lg cursor-pointer hover:text-faintBlack"
             >
               Send a message

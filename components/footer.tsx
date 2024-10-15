@@ -86,9 +86,9 @@ export default function footer() {
               <h3 className="text-white md:text-base lg:text-xl font-normal font-lato mb-4">
                 artxvibes@gmail.com
               </h3>
-              <h3 className="text-white md:text-base lg:text-xl font-normal font-lato mb-4">
+              {/* <h3 className="text-white md:text-base lg:text-xl font-normal font-lato mb-4">
                 +2348186319784
-              </h3>
+              </h3> */}
             </div>
           </div>
         </div>
@@ -105,7 +105,7 @@ export default function footer() {
 
           <div className="flex-col w-fit lg:w-96 h-fit items-center justify-start">
             <h4 className="text-white text-base lg:text-xl font-normal font-lato mb-2">
-              We will love to reach you! Subscribe to get
+              Subscribe to keep up to date with us
             </h4>
             <div className="flex items-center justify-between w-full bg-white px-3 py-2 rounded-lg">
               <input

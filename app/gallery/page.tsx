@@ -149,17 +149,17 @@ export default function Gallery() {
         className="w-full mt-0 md:mt-20 mb-20 px-8 py-28 md:py-28 md:px-20"
       >
         <h1 className="w-fit py-4 font-gothic text-2xl md:text-5xl text-black text-left mb-8">
-          Gallery 3.0
+          Bridging Gaps 2023
         </h1>
         <ImageGallery items={galleryThree} />
 
         <h1 className="w-fit py-4 font-gothic text-2xl md:text-5xl text-black text-left mb-8 mt-10">
-          Gallery 2.0
+          Introspection 2022
         </h1>
         <ImageGallery items={galleryTwo} />
 
         <h1 className="w-fit py-4 font-gothic text-2xl md:text-5xl text-black text-left mb-8 mt-10">
-          Gallery 1.0
+          Inception 2021
         </h1>
         <ImageGallery items={galleryOne} />
       </div>
