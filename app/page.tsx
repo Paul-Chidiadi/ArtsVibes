@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       {/* UPCOMING EVENTS */}
-      <div
+      {/* <div
         id="top"
         className="w-full bg-notify px-8 py-8 md:py-8 md:px-20 mt-12"
       >
@@ -35,7 +35,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="bg-[url('/Rectangle 117.png')] bg-secondary bg-no-repeat bg-contain bg-center h-fit w-full flex flex-col hsp:flex-row justify-center items-center px-8 py-28 md:py-28 md:px-20 gap-10">
         <div className="w-full hsp:w-1/2 flex flex-col justify-start items-start">
