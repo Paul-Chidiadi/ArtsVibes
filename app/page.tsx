@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       {/* UPCOMING EVENTS */}
-      {/* <div
+      <div
         id="top"
         className="w-full bg-notify px-8 py-8 md:py-8 md:px-20 mt-12"
       >
@@ -15,27 +15,28 @@ export default function Home() {
           </div>
 
           <div className="flex-1">
-            <h1 className="font-lato font-bold text-black text-3xl md:text-5xl">
-              <i className="bx bxs-bell bx-tada text-3xl md:text-5xl font-bold text-footer"></i>
+            <h1 className="font-lato font-bold text-black text-xl md:text-3xl">
+              {/* <i className="bx bxs-bell bx-tada text-3xl md:text-5xl font-bold text-footer"></i> */}
               {"  "}
-              Upcoming Event
+              Labari Prize for Poetry 2024
             </h1>
 
             <p className="w-full font-lato text-base md:text-xl text-black italic mt-5">
-              Arts & Vibes 2024 - Mindscapes of the North. Join us as we take a
-              deep dive into the mindscapes of northern Nigeria, revealing the
-              complex layers of the thoughts, emotions, and lived experiences of
-              the Arewa artists and people.
+              <span className="font-semibold">"Mindscapes of the North"</span>{" "}
+              invites us to reveal the complex layers of thoughts, emotions, and
+              lived experiences of Arewa. It encourages poets to explore the
+              collective cultural identity shaped by shared beliefs,
+              experiences, and ideologies.
             </p>
             <a
-              href="https://events.sycamore.ng/events/av2024"
+              href="/labari"
               className="flex w-40 mt-5 items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base cursor-pointer hover:text-faintBlack"
             >
-              REGISTER NOW
+              JOIN NOW
             </a>
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="bg-[url('/Rectangle 117.png')] bg-secondary bg-no-repeat bg-contain bg-center h-fit w-full flex flex-col hsp:flex-row justify-center items-center px-8 py-28 md:py-28 md:px-20 gap-10">
         <div className="w-full hsp:w-1/2 flex flex-col justify-start items-start">

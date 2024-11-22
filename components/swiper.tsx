@@ -6,10 +6,8 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Import icons 
 const CustomSlider: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    // { id: 1, image: "/slider-1.jpeg" },
-    { id: 2, image: "/slider-2.jpeg" },
-    { id: 3, image: "/slider-3.jpeg" },
-    { id: 4, image: "/slider-4.jpeg" },
+    { id: 2, image: "/submit-1.jpeg" },
+    { id: 3, image: "/submit.jpeg" },
   ];
 
   const nextSlide = () => {
