@@ -1,32 +1,33 @@
+"use client";
+
 import Image from "next/image";
+import { useSearchParams } from "next/navigation";
+import { entry2023, entry2024 } from "@/lib/data";
 
 export default function Labari() {
+  const searchParam = useSearchParams();
+  const year = searchParam.get("year");
+  const id = searchParam.get("id");
+
+  const data = year === "2024" ? entry2024 : entry2023;
+  const actaualItem = data && data.filter((item) => item.id === Number(id))[0];
+
   return (
     <>
       <div
         id="top"
         className="relative w-full px-8 py-7 md:px-20 md:py-28 mt-12"
       >
-        <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl text-black text-center">
-          Bridging the Gaps
+        <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl uppercase text-black text-center">
+          {actaualItem && actaualItem.title}
         </h1>
 
-        <h4 className="w-full font-lato font-bold text-xl md:text-4xl text-black text-center mt-10">
-          ABRAHAM GAM LUCAS
+        <h4 className="w-full font-lato font-bold text-4xl text-black text-center mt-10">
+          {actaualItem && actaualItem.author}
         </h4>
 
-        <p className="w-full font-lato font-medium text-lg text-black text-left mt-10">
-          These differences differ to no understanding of it <br></br> Fear
-          clothes these gaps <br></br> So we attack these misunderstanding from
-          the position<br></br> of defence<br></br> Seeing ourselves through the
-          mirrow of conflict<br></br> Peace between these gaps feels like taking
-          poison<br></br> Our today can curse our tomorrow or cause reverence
-          <br></br> for the past and future <br></br> Religion, race and
-          ethnicity confine us to be who they<br></br>
-          want us to be <br></br> But this bridge frees us <br></br> Not all
-          bridges are bridging the gaps <br></br> Some bridges are burnt to
-          bridge the gap<br></br> Because the foundation of such bridges are
-          debilitated
+        <p className="w-full font-lato font-medium text-lg text-black text-left mt-10 whitespace-pre-wrap">
+          {actaualItem && actaualItem.content}
         </p>
 
         <div className="w-full flex justify-start items-center gap-5 mt-12">
@@ -61,7 +62,7 @@ export default function Labari() {
         </div>
         <Image
           className="hidden absolute md:block bottom-3 right-3"
-          src="/avatar.png"
+          src={actaualItem && actaualItem.image}
           width={250}
           height={250}
           quality={100}

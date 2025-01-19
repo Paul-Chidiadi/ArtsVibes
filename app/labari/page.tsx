@@ -1,11 +1,17 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
+import EntryCard from "@/components/entrycard";
 
 export default function Labari() {
+  const [activeTab, setActiveTab] = useState("2024");
+
   return (
     <>
       <div id="top" className="bg-gray-50 font-lato mt-12">
         {/* Header Section */}
-        <header className="bg-primary text-white text-center py-16">
+        <header className="bg-footer text-white text-center py-16">
           <h1 className="text-4xl md:text-5xl font-gothic">
             Labari Prize for Poetry 2024
           </h1>
@@ -14,7 +20,171 @@ export default function Labari() {
             <span className="font-semibold">Mindscapes of the North</span>
           </p>
         </header>
+      </div>
 
+      <div className="w-full px-8 py-7 md:px-20 md:pb-28">
+        {/* Tabs Section */}
+        <div className="w-full px-8 py-7 md:px-20 md:pb-28">
+          <div className="flex justify-center space-x-6 mb-8">
+            <button
+              onClick={() => setActiveTab("2024")}
+              className={`px-5 md:px-6 py-2 font-gothic text-xs md:text-lg rounded ${
+                activeTab === "2024"
+                  ? "bg-primary text-white"
+                  : "bg-gray-200 text-black"
+              }`}
+            >
+              2024
+            </button>
+            <button
+              onClick={() => setActiveTab("2023")}
+              className={`px-5 md:px-6 py-2 font-gothic text-xs md:text-lg rounded ${
+                activeTab === "2023"
+                  ? "bg-primary text-white"
+                  : "bg-gray-200 text-black"
+              }`}
+            >
+              2023
+            </button>
+          </div>
+
+          {/* Shortlisted Entries 2023 */}
+          {activeTab === "2023" && (
+            <div>
+              <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl text-black text-center">
+                Shortlisted Entries 2023
+              </h1>
+              <div className="w-full flex items-center justify-center py-12">
+                <a href="/labari/entry?year=2023&id=1">
+                  <Image
+                    className="w-full md:w-96"
+                    src="/Frame 38556.png"
+                    width={660}
+                    height={430}
+                    quality={100}
+                    alt="line-image"
+                  />
+                </a>
+              </div>
+              <div className="flex flex-wrap gap-8 w-full justify-evenly items-start py-12">
+                <a href="/labari/entry?year=2023&id=2">
+                  <Image
+                    className="w-full md:w-96"
+                    src="/Frame 38555.png"
+                    width={660}
+                    height={430}
+                    quality={100}
+                    alt="line-image"
+                  />
+                </a>
+                <a href="/labari/entry?year=2023&id=3">
+                  <Image
+                    className="w-full md:w-96"
+                    src="/Frame 38557.png"
+                    width={660}
+                    height={430}
+                    quality={100}
+                    alt="line-image"
+                  />
+                </a>
+                <a href="/labari/entry?year=2023&id=4">
+                  <Image
+                    className="w-full md:w-96"
+                    src="/Frame 38554.png"
+                    width={660}
+                    height={430}
+                    quality={100}
+                    alt="line-image"
+                  />
+                </a>
+                <a href="/labari/entry?year=2023&id=5">
+                  <Image
+                    className="w-full md:w-96"
+                    src="/Frame 38558.png"
+                    width={660}
+                    height={430}
+                    quality={100}
+                    alt="line-image"
+                  />
+                </a>
+              </div>
+            </div>
+          )}
+
+          {/* Shortlisted Entries 2024 */}
+          {activeTab === "2024" && (
+            <div>
+              <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl text-black text-center">
+                Shortlisted Entries 2024
+              </h1>
+              <div className="w-full flex items-center justify-center py-12">
+                <EntryCard
+                  isWinner={true}
+                  author={"Ridwan Fasai"}
+                  title={"A small act of kindness"}
+                  year={2024}
+                  id={1}
+                  image={"/avatar.png"}
+                />
+              </div>
+              <div className="flex flex-wrap gap-8 w-full justify-evenly items-start py-12">
+                <EntryCard
+                  isWinner={false}
+                  author={"Timi Sanni"}
+                  title={
+                    "An interview with a survivor of the Zamfara bomb blast"
+                  }
+                  year={2024}
+                  id={2}
+                  image={"/avatar.png"}
+                />
+                <EntryCard
+                  isWinner={false}
+                  author={"Adamu Yahuza Abdullahi"}
+                  title={"Blood Sonnet"}
+                  year={2024}
+                  id={3}
+                  image={"/avatar.png"}
+                />
+                <EntryCard
+                  isWinner={false}
+                  author={"Pacella Chukwuma Eke"}
+                  title={"Hawking Grace"}
+                  year={2024}
+                  id={4}
+                  image={"/avatar.png"}
+                />
+                <EntryCard
+                  isWinner={false}
+                  author={"Abdulbaseet Yusuff"}
+                  title={"Mutunci"}
+                  year={2024}
+                  id={5}
+                  image={"/avatar.png"}
+                />
+                <EntryCard
+                  isWinner={false}
+                  author={"Musa Abduljallal"}
+                  title={"Pandemonium"}
+                  year={2024}
+                  id={6}
+                  image={"/avatar.png"}
+                />
+                <EntryCard
+                  isWinner={false}
+                  author={"Shafaatu Mohammed"}
+                  title={"The Glowing Sun of the North"}
+                  year={2024}
+                  id={7}
+                  image={"/avatar.png"}
+                />
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+
+      <div className="bg-gray-50 font-lato mt-12">
         {/* Hero Image Section */}
         <section className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10 px-6 lg:px-20">
           <div className="relative">
@@ -212,72 +382,6 @@ export default function Labari() {
             </ul>
           </section>
         </main>
-      </div>
-
-      <div className="w-full px-8 py-7 md:px-20 md:pb-28">
-        <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl text-black text-center">
-          Shortlisted Entries 2023
-        </h1>
-
-        <div className="w-full flex items-center justify-center py-12">
-          <a href="/labari/winner">
-            <Image
-              className="w-full md:w-96"
-              src="/Frame 38556.png"
-              width={660}
-              height={430}
-              quality={100}
-              alt="line-image"
-            />
-          </a>
-        </div>
-
-        <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl text-black text-center">
-          Entries
-        </h1>
-
-        <div className="flex flex-wrap gap-8 w-full justify-evenly items-start py-12">
-          <a href="/labari/entryone">
-            <Image
-              className="w-full md:w-96"
-              src="/Frame 38555.png"
-              width={660}
-              height={430}
-              quality={100}
-              alt="line-image"
-            />
-          </a>
-          <a href="/labari/entrytwo">
-            <Image
-              className="w-full md:w-96"
-              src="/Frame 38554.png"
-              width={660}
-              height={430}
-              quality={100}
-              alt="line-image"
-            />
-          </a>
-          <a href="/labari/entrythree">
-            <Image
-              className="w-full md:w-96"
-              src="/Frame 38557.png"
-              width={660}
-              height={430}
-              quality={100}
-              alt="line-image"
-            />
-          </a>
-          <a href="/labari/entryfour">
-            <Image
-              className="w-full md:w-96"
-              src="/Frame 38558.png"
-              width={660}
-              height={430}
-              quality={100}
-              alt="line-image"
-            />
-          </a>
-        </div>
       </div>
 
       <div className="w-full flex items-start justify-end py-5 pr-11 md:py-10 md:pr-24">
