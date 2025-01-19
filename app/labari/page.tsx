@@ -178,6 +178,14 @@ export default function Labari() {
                   id={7}
                   image={"/avatar.png"}
                 />
+                <EntryCard
+                  isWinner={false}
+                  author={"Aisha Tahir"}
+                  title={"Whispers of Harmattan"}
+                  year={2024}
+                  id={8}
+                  image={"/avatar.png"}
+                />
               </div>
             </div>
           )}

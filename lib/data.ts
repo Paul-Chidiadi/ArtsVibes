@@ -528,4 +528,55 @@ export const entry2024 = [
     I choose to look for you at home.     
     `,
   },
+  {
+    id: 8,
+    title: "Whispers of Harmattan",
+    author: "Aisha Tahir",
+    image: "/avatar.png",
+    content: `
+    The radio hums old melodies still,
+    of northern women, spun in gold,
+    of northern men shaping love in their hands,
+    their words heavy with promise.
+
+    I must be the prayer answered,
+    because I am everything this land raised me to be.
+    Seasons bear their fruit,
+    and with each fruit, the seed of something more.
+    I am the seed.
+
+    It is harmattan.
+    My home cradles loved men,
+    steadfast women, and prayers carved into the air.
+    The one thing they love more than God Himself
+    is being right—
+    even when it’s wrong.
+
+    The morning adhaan cuts through the haze,
+    its call threading through the fog
+    that wraps this city like a second skin.
+
+    Still, they gather—their shoulders draped in soft cloth,
+    feet bare against the cold ground,
+    breath visible as they move forward,
+    their prayers, rising with the mist.
+    Tea kettles hum over coal fires,
+    their steam curling upward,
+    a quiet offering to the waking sky.
+
+    The air, thick with dust and devotion,
+    holds its stories in the cold;
+    each step toward the mosque
+    etches faith against the blur of dawn.
+    
+    This is home—
+    a land of sunrises and traditions,
+    where harmattan humbles and heals,
+    where every voice rises like poetry,
+    strong against the winds of time.
+    The people stand like millet
+    in the harmattan wind,
+    bending but unbroken.
+    `,
+  },
 ];
