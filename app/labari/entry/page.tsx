@@ -3,8 +3,17 @@
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { entry2023, entry2024 } from "@/lib/data";
+import { Suspense } from "react";
 
-export default function Labari() {
+export default function Page() {
+  return (
+    <Suspense>
+      <Labari />
+    </Suspense>
+  );
+}
+
+function Labari() {
   const searchParam = useSearchParams();
   const year = searchParam.get("year");
   const id = searchParam.get("id");
