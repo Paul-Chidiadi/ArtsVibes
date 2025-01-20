@@ -30,9 +30,9 @@ export default function Home() {
             </p>
             <a
               href="/labari"
-              className="flex w-40 mt-5 items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base cursor-pointer hover:text-faintBlack"
+              className="flex w-fit mt-5 items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base cursor-pointer hover:text-faintBlack"
             >
-              JOIN NOW
+              VIEW SHORTLISTED ENTRIES
             </a>
           </div>
         </div>

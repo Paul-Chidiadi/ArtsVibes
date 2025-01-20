@@ -130,7 +130,7 @@ export default function Labari() {
               <div className="flex flex-wrap gap-8 w-full justify-evenly items-start py-12">
                 <EntryCard
                   isWinner={false}
-                  author={"Timi Sanni"}
+                  author={"Adamu Yahuza Abdullahi"}
                   title={
                     "An interview with a survivor of the Zamfara bomb blast"
                   }
@@ -140,7 +140,7 @@ export default function Labari() {
                 />
                 <EntryCard
                   isWinner={false}
-                  author={"Adamu Yahuza Abdullahi"}
+                  author={"Timi Sanni"}
                   title={"Blood Sonnet"}
                   year={2024}
                   id={3}

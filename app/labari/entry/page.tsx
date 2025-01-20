@@ -27,15 +27,15 @@ function Labari() {
         id="top"
         className="relative w-full px-8 py-7 md:px-20 md:py-28 mt-12"
       >
-        <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl uppercase text-black text-center">
+        <h1 className="w-full p-4 font-gothic text-2xl md:text-6xl uppercase text-black text-center">
           {actaualItem && actaualItem.title}
         </h1>
 
-        <h4 className="w-full font-lato font-bold text-4xl text-black text-center mt-10">
+        <h4 className="w-full font-lato font-bold text-2xl md:text-3xl text-black text-center mt-5 md:mt-10">
           {actaualItem && actaualItem.author}
         </h4>
 
-        <p className="w-full font-lato font-medium text-lg text-black text-left mt-10 whitespace-pre-wrap">
+        <p className="w-full font-lato font-medium text-[10px] md:text-lg text-black text-left mt-5 md:mt-10 whitespace-pre-wrap">
           {actaualItem && actaualItem.content}
         </p>
 
