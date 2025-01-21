@@ -22,10 +22,10 @@ export default function Labari() {
         </header>
       </div>
 
-      <div className="w-full px-8 py-7 md:px-20 md:pb-28">
-        {/* Tabs Section */}
-        <div className="w-full px-8 py-7 md:px-20 md:pb-28">
-          <div className="flex justify-center space-x-6 mb-8">
+      {/* <div className="w-full px-8 py-7 md:px-20 md:pb-28"> */}
+      {/* Tabs Section */}
+      {/* <div className="w-full px-8 py-7 md:px-20 md:pb-28"> */}
+      {/* <div className="flex justify-center space-x-6 mb-8">
             <button
               onClick={() => setActiveTab("2024")}
               className={`px-5 md:px-6 py-2 font-gothic text-xs md:text-lg rounded ${
@@ -46,10 +46,10 @@ export default function Labari() {
             >
               2023
             </button>
-          </div>
+          </div> */}
 
-          {/* Shortlisted Entries 2023 */}
-          {activeTab === "2023" && (
+      {/* Shortlisted Entries 2023 */}
+      {/* {activeTab === "2023" && (
             <div>
               <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl text-black text-center">
                 Shortlisted Entries 2023
@@ -109,10 +109,10 @@ export default function Labari() {
                 </a>
               </div>
             </div>
-          )}
+          )} */}
 
-          {/* Shortlisted Entries 2024 */}
-          {activeTab === "2024" && (
+      {/* Shortlisted Entries 2024 */}
+      {/* {activeTab === "2024" && (
             <div>
               <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl text-black text-center">
                 Shortlisted Entries 2024
@@ -188,9 +188,9 @@ export default function Labari() {
                 />
               </div>
             </div>
-          )}
-        </div>
-      </div>
+          )} */}
+      {/* </div> */}
+      {/* </div> */}
 
       <div className="bg-gray-50 font-lato mt-12">
         {/* Hero Image Section */}
