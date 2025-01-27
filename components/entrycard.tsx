@@ -6,6 +6,7 @@ import Image from "next/image";
 interface PropType {
   isWinner: boolean;
   author: string;
+  bio: string;
   title: string;
   year: number;
   id: number;
@@ -15,6 +16,7 @@ interface PropType {
 export default function EntryCard({
   isWinner,
   author,
+  bio,
   title,
   year,
   id,
@@ -32,13 +34,20 @@ export default function EntryCard({
         </div>
       )}
 
-      {/* Title */}
+      {/* Author */}
       <h1 className="text-black font-gothic text-sm uppercase text-center md:text-base font-bold mt-2">
         {author}
       </h1>
 
+      {/* Bio */}
+      <p className="md:h-[100px] overflow-hidden text-black text-center text-xs md:text-xs mt-2">
+        {bio}
+      </p>
+
       {/* Subtitle */}
-      <p className="text-black text-center text-md md:text-lg mt-2">{title}</p>
+      <p className="text-black text-center text-md font-bold md:text-lg mt-2">
+        {title}
+      </p>
 
       {/* Image */}
       <div className="flex items-center justify-center mt-2">

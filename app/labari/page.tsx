@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import EntryCard from "@/components/entrycard";
+import { entry2023, entry2024 } from "@/lib/data";
 
 export default function Labari() {
   const [activeTab, setActiveTab] = useState("2024");
@@ -22,10 +23,10 @@ export default function Labari() {
         </header>
       </div>
 
-      {/* <div className="w-full px-8 py-7 md:px-20 md:pb-28"> */}
-      {/* Tabs Section */}
-      {/* <div className="w-full px-8 py-7 md:px-20 md:pb-28"> */}
-      {/* <div className="flex justify-center space-x-6 mb-8">
+      <div className="w-full px-8 py-7 md:px-20 md:pb-28">
+        {/* Tabs Section */}
+        <div className="w-full px-1 py-7 md:px-20 md:pb-28">
+          <div className="flex justify-center space-x-6 mb-8">
             <button
               onClick={() => setActiveTab("2024")}
               className={`px-5 md:px-6 py-2 font-gothic text-xs md:text-lg rounded ${
@@ -46,10 +47,10 @@ export default function Labari() {
             >
               2023
             </button>
-          </div> */}
+          </div>
 
-      {/* Shortlisted Entries 2023 */}
-      {/* {activeTab === "2023" && (
+          {/* Shortlisted Entries 2023 */}
+          {activeTab === "2023" && (
             <div>
               <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl text-black text-center">
                 Shortlisted Entries 2023
@@ -109,88 +110,35 @@ export default function Labari() {
                 </a>
               </div>
             </div>
-          )} */}
+          )}
 
-      {/* Shortlisted Entries 2024 */}
-      {/* {activeTab === "2024" && (
+          {/* Shortlisted Entries 2024 */}
+          {activeTab === "2024" && (
             <div>
               <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl text-black text-center">
                 Shortlisted Entries 2024
               </h1>
-              <div className="w-full flex items-center justify-center py-12">
-                <EntryCard
-                  isWinner={true}
-                  author={"Ridwan Fasai"}
-                  title={"A small act of kindness"}
-                  year={2024}
-                  id={1}
-                  image={"/avatar.png"}
-                />
-              </div>
               <div className="flex flex-wrap gap-8 w-full justify-evenly items-start py-12">
-                <EntryCard
-                  isWinner={false}
-                  author={"Adamu Yahuza Abdullahi"}
-                  title={
-                    "An interview with a survivor of the Zamfara bomb blast"
-                  }
-                  year={2024}
-                  id={2}
-                  image={"/avatar.png"}
-                />
-                <EntryCard
-                  isWinner={false}
-                  author={"Timi Sanni"}
-                  title={"Blood Sonnet"}
-                  year={2024}
-                  id={3}
-                  image={"/avatar.png"}
-                />
-                <EntryCard
-                  isWinner={false}
-                  author={"Pacella Chukwuma Eke"}
-                  title={"Hawking Grace"}
-                  year={2024}
-                  id={4}
-                  image={"/avatar.png"}
-                />
-                <EntryCard
-                  isWinner={false}
-                  author={"Abdulbaseet Yusuff"}
-                  title={"Mutunci"}
-                  year={2024}
-                  id={5}
-                  image={"/avatar.png"}
-                />
-                <EntryCard
-                  isWinner={false}
-                  author={"Musa Abduljallal"}
-                  title={"Pandemonium"}
-                  year={2024}
-                  id={6}
-                  image={"/avatar.png"}
-                />
-                <EntryCard
-                  isWinner={false}
-                  author={"Shafaatu Mohammed"}
-                  title={"The Glowing Sun of the North"}
-                  year={2024}
-                  id={7}
-                  image={"/avatar.png"}
-                />
-                <EntryCard
-                  isWinner={false}
-                  author={"Aisha Tahir"}
-                  title={"Whispers of Harmattan"}
-                  year={2024}
-                  id={8}
-                  image={"/avatar.png"}
-                />
+                {entry2024 &&
+                  entry2024.map((item) => {
+                    return (
+                      <EntryCard
+                        key={item.id}
+                        isWinner={item.isWinner}
+                        author={item.author}
+                        bio={item.bio}
+                        title={item.title}
+                        year={2024}
+                        id={item.id}
+                        image={item.image}
+                      />
+                    );
+                  })}
               </div>
             </div>
-          )} */}
-      {/* </div> */}
-      {/* </div> */}
+          )}
+        </div>
+      </div>
 
       <div className="bg-gray-50 font-lato mt-12">
         {/* Hero Image Section */}

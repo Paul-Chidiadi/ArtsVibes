@@ -164,11 +164,10 @@ export const entry2023 = [
 export const entry2024 = [
   {
     id: 1,
-    isWinner: true,
     title: "A small act of kindness",
     bio: "Swan I, whose works have appeared/ are forthcoming on ANMLY Lit, Eunoia Review, Lucent Dreaming, Strange Horizon, SprinNg, Poetry Column NND, and elsewhere, is a Nigerian Poet based in Sokoto. He is a 2025 Pushcart Prize Nominee based in Sokoto. He tweets @Ibn_Yushau44",
     author: "Ridwan Fasai",
-    image: "/Ridwan.jpg",
+    image: "/headshots/Ridwan.jpg",
     content: `
     The Almajiri is the most visible tragedy seen on the
     streets of all northern Nigerian cities and beyond
@@ -245,7 +244,6 @@ export const entry2024 = [
   },
   {
     id: 2,
-    isWinner: false,
     title: "An interview with a survivor of the Zamfara bomb blast",
     bio: "THE PLOB, MAAR II, TPC V, whose works have appeared in Lolwe, Strange Horizons, CHESTNUT REVIEW, A Long House, Rough Cut Press, The temz review, and other places, is a poet from Borgu, Nigeria. He is a pioneer Fellow of Muktar Aliyu Art Residency, Minna, Niger state, Nigeria.",
     author: "Adamu Yahuza Abdullahi",
@@ -306,11 +304,10 @@ export const entry2024 = [
   },
   {
     id: 3,
-    isWinner: false,
     title: "Blood Sonnet",
     bio: "",
     author: "Timi Sanni",
-    image: "/Timi Sanni.png",
+    image: "/headshots/Timi Sanni.png",
     content: `
     for Ismail Mohammed
     
@@ -331,7 +328,6 @@ export const entry2024 = [
   },
   {
     id: 4,
-    isWinner: false,
     title: "Hawking Grace",
     bio: "is the author of Love in its bliss and sins; 1st runner up for the Nigerian Prize for Teen Authors, Poetry Category; and gazelle “The Apocalypse.” She is the winner of the Utopia Award, Poetry Category, Cradle Poetry Contest, HCAF Creative Writing Award for Excellence, and others. She is currently a multiple slam-champion, a Sundress Best of the Nets Nominee and a two-time Pushcart Nominee. Pacella has her works in several literary magazines, and is currently working as an assistant editor for the Arts Lounge Magazine.",
     author: "Pacella Chukwuma Eke",
@@ -366,11 +362,10 @@ export const entry2024 = [
   },
   {
     id: 5,
-    isWinner: false,
     title: "Mutunci",
     bio: "is a Nigerian writer. His works appear in Indianapolis Review, Up The Staircase Quarterly, Cutleaf Journal, Brittle Paper, Pidgeonholes, and elsewhere.",
     author: "Abdulbaseet Yusuff",
-    image: "/Abdulbaseet Yusuff.jpg",
+    image: "/headshots/Abdulbaseet Yusuff.jpg",
     content: `
     One would think, and rightly so, that business
     is all about money: that after centuries of commerce
@@ -428,7 +423,6 @@ export const entry2024 = [
   },
   {
     id: 6,
-    isWinner: false,
     title: "Pandemonium",
     bio: "",
     author: "Musa Abduljallal",
@@ -504,11 +498,10 @@ export const entry2024 = [
   },
   {
     id: 7,
-    isWinner: false,
     title: "The Glowing Sun of the North",
     bio: "",
     author: "Shafaatu Mohammed",
-    image: "/Shafaatu.jpg",
+    image: "/avatar.png",
     content: `
     I Could look for you, beloved, in the thousand ways and places
     I could and I choose here
@@ -544,11 +537,10 @@ export const entry2024 = [
   },
   {
     id: 8,
-    isWinner: false,
     title: "Whispers of Harmattan",
     bio: "is a Nigerian writer, poet, and legal professional. She holds a Bachelor’s degree in Law from Nile University of Nigeria and was called to the Nigerian Bar in March 2024. In addition to her legal career, Aisha is passionate about writing. She is a published poet and the author of a poetry collection, blending storytelling and emotional depth. Aisha’s writing is reflective of her unique perspective on life and identity, capturing the everyday nuances of human experience in her work.",
     author: "Aisha Tahir",
-    image: "/Aisha Tahir.jpeg",
+    image: "/avatar.png",
     content: `
     The radio hums old melodies still,
     of northern women, spun in gold,

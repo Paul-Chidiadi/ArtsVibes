@@ -69,14 +69,16 @@ function Labari() {
             alt="twitter"
           />
         </div>
-        <Image
-          className="hidden absolute md:block bottom-3 right-3"
-          src={actaualItem && actaualItem.image}
-          width={250}
-          height={250}
-          quality={100}
-          alt="user"
-        />
+        <div className="hidden absolute md:block rounded-full md:w-[250px] md:h-[250px] overflow-hidden bottom-3 right-3">
+          <Image
+            src={actaualItem && actaualItem.image}
+            alt="user"
+            width={250}
+            height={250}
+            quality={100}
+            className="w-full h-full object-cover"
+          />
+        </div>
       </div>
     </>
   );
