@@ -19,7 +19,10 @@ export default function About() {
       </div>
 
       <div className="flex w-full py-10 items-center justify-center gap-7 md:gap-24 border-b border-gray-400">
-        <a>
+        <a
+          target="_blank"
+          href="https://www.instagram.com/theartsandvibes?igsh=MW9zbnQ4ZWg3a2dpcA=="
+        >
           <Image
             className="cursor-pointer w-8 md:w-11"
             src="/instagram.png"
@@ -29,7 +32,7 @@ export default function About() {
             alt="instagram"
           />
         </a>
-        <a>
+        <a target="_blank" href="https://x.com/theartsandvibes?s=21">
           <Image
             className="cursor-pointer w-8 md:w-11"
             src="/twitter.png"
@@ -106,6 +109,14 @@ export default function About() {
         <div className="flex flex-wrap gap-8 w-full justify-evenly items-start py-12">
           <Image
             className=""
+            src="/HAMID.png"
+            width={250}
+            height={150}
+            quality={100}
+            alt="team"
+          />
+          <Image
+            className=""
             src="/HAMID-1.png"
             width={250}
             height={150}
@@ -154,14 +165,6 @@ export default function About() {
           />
           <Image
             className=""
-            src="/HAMID-7.png"
-            width={250}
-            height={150}
-            quality={100}
-            alt="team"
-          />
-          <Image
-            className=""
             src="/HAMID-8.png"
             width={250}
             height={150}
@@ -171,14 +174,6 @@ export default function About() {
           <Image
             className=""
             src="/HAMID-9.png"
-            width={250}
-            height={150}
-            quality={100}
-            alt="team"
-          />
-          <Image
-            className=""
-            src="/HAMID.png"
             width={250}
             height={150}
             quality={100}

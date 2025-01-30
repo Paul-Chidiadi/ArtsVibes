@@ -25,7 +25,15 @@ export default function EntryCard({
   return (
     <a
       href={`/labari/entry?year=${year}&id=${id}`}
-      className="bg-primary p-6 md:p-8 rounded-xl shadow-lg w-80 md:w-96"
+      className={`${
+        isWinner
+          ? "bg-primary"
+          : id % 3
+          ? "bg-faintBlack"
+          : id % 2
+          ? "bg-blue-600"
+          : "bg-orange-500"
+      } p-6 md:p-8 rounded-xl shadow-lg w-80 md:w-96`}
     >
       {/* Winner Tag */}
       {isWinner && (
@@ -35,17 +43,29 @@ export default function EntryCard({
       )}
 
       {/* Author */}
-      <h1 className="text-black font-gothic text-sm uppercase text-center md:text-base font-bold mt-2">
+      <h1
+        className={`${
+          isWinner ? "text-black" : "text-black"
+        } text-black font-gothic text-sm uppercase text-center md:text-base font-bold mt-2`}
+      >
         {author}
       </h1>
 
       {/* Bio */}
-      <p className="md:h-[100px] overflow-hidden text-black text-center text-xs md:text-xs mt-2">
+      {/* <p
+        className={`${
+          isWinner ? "text-black" : "text-black"
+        } md:h-[100px] overflow-hidden text-black text-center text-xs md:text-xs mt-2`}
+      >
         {bio}
-      </p>
+      </p> */}
 
       {/* Subtitle */}
-      <p className="text-black text-center text-md font-bold md:text-lg mt-2">
+      <p
+        className={`${
+          isWinner ? "text-black" : "text-black"
+        } text-black text-center text-md font-bold md:text-lg mt-2`}
+      >
         {title}
       </p>
 

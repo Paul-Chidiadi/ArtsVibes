@@ -3,6 +3,7 @@ export const entry2023 = [
     id: 1,
     title: "Who should we blame for the rotten fruits?",
     author: "ZAYNAB ILLIASU BOB",
+    bio: "",
     image: "/Frame 38550.png",
     content: `
         i was never meant to say anything.
@@ -38,6 +39,7 @@ export const entry2023 = [
     id: 2,
     title: "Let’s Make Magic together",
     author: "EZINNE IGBOKWE",
+    bio: "",
     image: "/Frame 38552.png",
     content: `
         The thin line between love and hate pitched
@@ -61,6 +63,7 @@ export const entry2023 = [
     id: 3,
     title: "Bridging the Gaps",
     author: "ABRAHAM GAM LUCAS",
+    bio: "",
     image: "/avatar.png",
     content: `
         These differences differ to no understanding of it
@@ -82,6 +85,7 @@ export const entry2023 = [
     id: 4,
     title: "The Resilient Symphony of Us",
     author: "DEBORAH USIDAMEN",
+    bio: "",
     image: "/Frame 38551.png",
     content: `
     This is the realm where our souls dance in rhythm to the beat of our hearts
@@ -108,6 +112,7 @@ export const entry2023 = [
     id: 5,
     title: "Being Nigerian",
     author: "ABUBAKAR MARIYA BAGUDO",
+    bio: "",
     image: "/avatar.png",
     content: `
     I sit in a history class, my teacher teaches colonialism, imperialism and terrorism
@@ -167,80 +172,57 @@ export const entry2024 = [
     isWinner: true,
     title: "A small act of kindness",
     bio: "Swan I, whose works have appeared/ are forthcoming on ANMLY Lit, Eunoia Review, Lucent Dreaming, Strange Horizon, SprinNg, Poetry Column NND, and elsewhere, is a Nigerian Poet based in Sokoto. He is a 2025 Pushcart Prize Nominee based in Sokoto. He tweets @Ibn_Yushau44",
-    author: "Ridwan Fasai",
+    author: "Ridwan Fasasi",
     image: "/Ridwan.jpg",
     content: `
-    The Almajiri is the most visible tragedy seen on the
-    streets of all northern Nigerian cities and beyond
-    —February 18, 2022, Vanguard News
+                        The Almajiri is the most visible tragedy seen on the
+                        streets of all northern Nigerian cities and beyond
+                        —February 18, 2022, Vanguard News
 
     I've never seen God more closely
-
                         than in the eyes of the man who gives
 
     a penny of softness to a boy.
-
                         The man lifts the windows of his imaan
 
     & offer his hand into what
-
-                        another will call sadaqah. Even in
-
-    stillness, it doesn't take
-
-                        much to understand how it is enough
-
-    to heal the hunger of the
-
-                        boy & his fragile body. It takes more
-
-    than one stretched hand to
-
-                        name kindness. I have live here for a
-
-    while, & this is how I remind
-
-                        myself the city’s tenderness is only the
-
-    unfolding of its landscape.
-
-                        Its blue winged history perching on
+                        another will call sadaqah.
                         
-    everything it touches.
+    Even in stillness, it doesn't take
+                        much to understand how it is enough to
 
-                        The scent of the air thickened with
+    heal the hunger of the boy
+                        & his fragile body. It takes more than
 
-    the blood & scent of its
+   one stretched hand to name kindness.
+                        I have live here for a while, & this is how
 
-                        people. Boned-dusk in the voice of
+    I remind myself the city’s tenderness
+                        is only the unfolding of its landscape.
 
-    the adhaan—gathering a
+    Its blue winged history perching on
+                        everything it touches.The scent of the
 
-                        congregation of believers. The boy
+    air thickened with the blood 
+                      & scent of its people. Boned-dusk in the
+                      
+    voice of the adhaan—gathering a
+                        congregation of believers. The boy is
                           
-    is sitting in front of the
+    sitting in front of the mosque. His bowl,
+                        tied with a rope, is still craves what will
 
-                        mosque. His bowl, tied with a rope,
+    quench its new thirst. I am searching
+                        for windows that open to love in my pocket.
 
-    is still craving what will
-
-                        quench its new thirst. I am searching
-                        
-    for windows that open to
-
-                        love in my pocket. I, too, have grown
-
-    to envy what my hand
-
+    I, too, have grown to envy what my hand
                         could offer. Like the boy, I, too, prefer
 
     a god who makes no promise
-
                         beyond the one that says at the end
 
-    of my misery, there's a door the
-
-                        size of the hand that will do the opening.
+    of my misery, there's a door the size
+                        of the hand that will do the opening.
     `,
   },
   {
@@ -267,7 +249,7 @@ export const entry2024 = [
     a hundred others piling the market square like bags of millet.
     i muttered prayers, wondering if God heard them. 
     somehow, i believe God still hears
-    though our cries never made it to his ears. 
+    though our cries never made it to his ears.
     
                                             won’t you run out of the city for your safety?
     
@@ -308,7 +290,7 @@ export const entry2024 = [
     id: 3,
     isWinner: false,
     title: "Blood Sonnet",
-    bio: "",
+    bio: "is a writer, editor, and multidisciplinary artist from Lagos, Nigeria. His debut chapbook, The Ordinary Affair of Being Human (Akashic Books, 2025), is forthcoming as part of the African Poetry Book Fund New-Generation African Poets series. He is the winner of the 2022 Kreative Diadem Writing Contest, the 2021 Anita McAndrews Poetry Award, and the 2020 Sprinng Poetry Contest. His work has appeared in Black Warrior Review, New Delta Review, Cincinnati Review, Poet Lore, The Rumpus, ONLY POEMS, and elsewhere.",
     author: "Timi Sanni",
     image: "/Timi Sanni.png",
     content: `
@@ -335,7 +317,7 @@ export const entry2024 = [
     title: "Hawking Grace",
     bio: "is the author of Love in its bliss and sins; 1st runner up for the Nigerian Prize for Teen Authors, Poetry Category; and gazelle “The Apocalypse.” She is the winner of the Utopia Award, Poetry Category, Cradle Poetry Contest, HCAF Creative Writing Award for Excellence, and others. She is currently a multiple slam-champion, a Sundress Best of the Nets Nominee and a two-time Pushcart Nominee. Pacella has her works in several literary magazines, and is currently working as an assistant editor for the Arts Lounge Magazine.",
     author: "Pacella Chukwuma Eke",
-    image: "/avatar.png",
+    image: "/Pacella.jpg",
     content: `
     Light falls through a woman’s veil, and I pick them up 
     with both eyes. There is a realm below the clouds;
@@ -429,84 +411,8 @@ export const entry2024 = [
   {
     id: 6,
     isWinner: false,
-    title: "Pandemonium",
-    bio: "",
-    author: "Musa Abduljallal",
-    image: "/avatar.png",
-    content: `
-    The only place I find solace 
-    is on my lover’s lips. There 
-    
-    is something about kissing 
-    that you need God’s tongue
-    
-    to properly explain. I lay on 
-    the bed, & she walks the 
-    
-    beak of her tongue around 
-    the gates of my nipples—& 
-    
-    that is it; I forget there are 
-    bastards out there setting 
-    
-    the world on fire. I forget
-    the next news I read could 
-    
-    be about Kidnapping, Boko 
-    Haram, or banditry in Kaduna, 
-    
-    Katsina, or Kebbi. I am 
-    imprisoned by my malady. 
-    
-    Yet, look at me finding relief
-    below the navel of a woman 
-    
-    that is haram for me. I admit 
-    that I am a fool. The Quran 
-    
-    says it is in the remembrance 	
-    of Allaah that hearts find 
-    
-    peace. Isn’t it devilish to 
-    only see tranquility on the 
-    
-    trunk of a harami woman? 
-    Isn’t this synonymous 
-    
-    to seeking heaven on
-    earth & hell in the hereafter? 
-    
-    I am in the ring of it all—my 
-    suffering, the things that
-    
-    please me, & the things 
-    that please my crafter. I 
-    
-    know, I am no slave of 
-    my heart. But what is with
-    
-    me & holding onto things 
-    that don’t last? How many 
-    
-    minutes do I spend in this 
-    woman that I am willing to 
-    
-    trade it with my akhirah? 
-    I want to take an odyssey
-    
-    to the kingdom of my Lord. 
-    Wish me well, for if I fail, 
-    
-    I wouldn’t be able to 
-    stand His Pandemonium. 
-     
-    `,
-  },
-  {
-    id: 7,
-    isWinner: false,
     title: "The Glowing Sun of the North",
-    bio: "",
+    bio: "is a Nigerian teen writer , poet , spoken word artiste , advocate, reviewer and currently a second year Physiotherapy student at the Federal University of Health Sciences Azare and a member of Hilltop creative arts foundation . Born in Nasarawa and raised between Nasarawa and Kaduna , . She is the winner of the 2022 Professor Andrew Nok poetry prize , the recipients the 2022 and 2024 poet of the year and writer of the year award at The Kaduna branch of hilltop creative arts foundation, she has been published in the Teenlit magazine , the Enghausa kwaraptipn anthology , the dreamy world anthology , The upwrite magazine , Yasmin El-Rufai foundation’s 2022 bloom anthology and elsewhere.",
     author: "Shafaatu Mohammed",
     image: "/Shafaatu.jpg",
     content: `
@@ -543,7 +449,7 @@ export const entry2024 = [
     `,
   },
   {
-    id: 8,
+    id: 7,
     isWinner: false,
     title: "Whispers of Harmattan",
     bio: "is a Nigerian writer, poet, and legal professional. She holds a Bachelor’s degree in Law from Nile University of Nigeria and was called to the Nigerian Bar in March 2024. In addition to her legal career, Aisha is passionate about writing. She is a published poet and the author of a poetry collection, blending storytelling and emotional depth. Aisha’s writing is reflective of her unique perspective on life and identity, capturing the everyday nuances of human experience in her work.",
