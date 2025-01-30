@@ -1,18 +1,7 @@
 import Image from "next/image";
-import { useSearchParams } from "next/navigation";
 import { entry2023, entry2024 } from "@/lib/data";
-import { Suspense } from "react";
-import MetaTags from "@/components/metaTags";
 import AuthorProfile from "@/components/authorProfile";
 import { Metadata } from "next";
-
-// export default function Page() {
-//   return (
-//     <Suspense>
-//       <Labari />
-//     </Suspense>
-//   );
-// }
 
 export default function Page({
   searchParams,
@@ -37,7 +26,7 @@ export async function generateMetadata({
     title: `${actualItem.author}'s Arts and Vibes Profile`,
     description: actualItem.bio,
     openGraph: {
-      title: `${actualItem.author}'s Profile`,
+      title: `${actualItem.author}'s Arts and Vibes Profile`,
       description: actualItem.bio,
       images: [
         {
@@ -53,7 +42,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: `${actualItem.author}'s Profile`,
+      title: `${actualItem.author}'s Arts and Vibes Profile`,
       description: actualItem.bio,
       images: [`https://www.artsandvibes.com/${actualItem.image}`],
     },
