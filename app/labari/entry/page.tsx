@@ -17,7 +17,7 @@ export default function Page() {
 }
 
 // Add generateMetadata function
-export async function generateMetadata(): Promise<Metadata> {
+async function generateMetadata(): Promise<Metadata> {
   const searchParams = useSearchParams();
   const year = searchParams.get("year");
   const id = searchParams.get("id");
