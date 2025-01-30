@@ -25,6 +25,13 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Arts and Vibes",
     description: "Arts and Vibes Website",
+    images: [
+      {
+        url: `https://www.artsandvibes.com/arts-vibes-logo.png`,
+        width: 1200,
+        height: 630,
+      },
+    ],
     url: "https://www.artsandvibes.com",
     siteName: "Arts and Vibes",
     locale: "en_US",
