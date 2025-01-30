@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { useSearchParams } from "next/navigation";
 import { entry2023, entry2024 } from "@/lib/data";
@@ -8,19 +6,30 @@ import MetaTags from "@/components/metaTags";
 import AuthorProfile from "@/components/authorProfile";
 import { Metadata } from "next";
 
-export default function Page() {
-  return (
-    <Suspense>
-      <Labari />
-    </Suspense>
-  );
+// export default function Page() {
+//   return (
+//     <Suspense>
+//       <Labari />
+//     </Suspense>
+//   );
+// }
+
+export default function Page({
+  searchParams,
+}: {
+  searchParams: { year?: string; id?: string };
+}) {
+  return <Labari searchParams={searchParams} />;
 }
 
 // Add generateMetadata function
-async function generateMetadata(): Promise<Metadata> {
-  const searchParams = useSearchParams();
-  const year = searchParams.get("year");
-  const id = searchParams.get("id");
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: { year?: string; id?: string };
+}): Promise<Metadata> {
+  const year = searchParams.year;
+  const id = searchParams.id;
   const data = year === "2024" ? entry2024 : entry2023;
   const actualItem = data && data.filter((item) => item.id === Number(id))[0];
 
@@ -55,11 +64,13 @@ async function generateMetadata(): Promise<Metadata> {
   };
 }
 
-function Labari() {
-  const searchParam = useSearchParams();
-  const year = searchParam.get("year");
-  const id = searchParam.get("id");
-
+function Labari({
+  searchParams,
+}: {
+  searchParams: { year?: string; id?: string };
+}) {
+  const year = searchParams.year;
+  const id = searchParams.id;
   const data = year === "2024" ? entry2024 : entry2023;
   const actualItem = data && data.filter((item) => item.id === Number(id))[0];
 
