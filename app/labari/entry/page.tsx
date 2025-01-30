@@ -6,6 +6,7 @@ import { entry2023, entry2024 } from "@/lib/data";
 import { Suspense } from "react";
 import MetaTags from "@/components/metaTags";
 import AuthorProfile from "@/components/authorProfile";
+import { Metadata } from "next";
 
 export default function Page() {
   return (
@@ -13,6 +14,45 @@ export default function Page() {
       <Labari />
     </Suspense>
   );
+}
+
+// Add generateMetadata function
+export async function generateMetadata(): Promise<Metadata> {
+  const searchParams = useSearchParams();
+  const year = searchParams.get("year");
+  const id = searchParams.get("id");
+  const data = year === "2024" ? entry2024 : entry2023;
+  const actualItem = data && data.filter((item) => item.id === Number(id))[0];
+
+  return {
+    title: `${actualItem.author}'s Arts and Vibes Profile`,
+    description: actualItem.bio,
+    openGraph: {
+      title: `${actualItem.author}'s Profile`,
+      description: actualItem.bio,
+      images: [
+        {
+          url: `https://www.artsandvibes.com/${actualItem.image}`,
+          width: 1200,
+          height: 630,
+        },
+      ],
+      url: `https://www.artsandvibes.com/labari/entry?year=${year}&${actualItem.id}`,
+      siteName: "Arts and Vibes",
+      locale: "en_US",
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${actualItem.author}'s Profile`,
+      description: actualItem.bio,
+      images: [`https://www.artsandvibes.com/${actualItem.image}`],
+    },
+    other: {
+      "og:type": "profile",
+      "profile:username": actualItem.author,
+    },
+  };
 }
 
 function Labari() {
@@ -25,13 +65,13 @@ function Labari() {
 
   return (
     <>
-      <MetaTags
-        title={`${actualItem.author}'s Profile`}
+      {/* <MetaTags
+        title={`${actualItem.author}'s Arts and Vibes Profile`}
         description={actualItem.bio}
         imageUrl={`https://www.artsandvibes.com/${actualItem.image}`}
         url={`https://www.artsandvibes.com/labari/entry?year=${year}&id=${actualItem.id}`}
         username={actualItem.author}
-      />
+      /> */}
 
       <div
         id="top"

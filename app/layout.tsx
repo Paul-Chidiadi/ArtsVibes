@@ -16,8 +16,25 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Arts and Vibes",
+  metadataBase: new URL("https://www.artsandvibes.com"),
+  title: {
+    default: "Arts and Vibes",
+    template: "%s | Arts and Vibes",
+  },
   description: "Arts and Vibes Website",
+  openGraph: {
+    title: "Arts and Vibes",
+    description: "Arts and Vibes Website",
+    url: "https://www.artsandvibes.com",
+    siteName: "Arts and Vibes",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Arts and Vibes",
+    description: "Arts and Vibes Website",
+  },
 };
 
 export default function RootLayout({
