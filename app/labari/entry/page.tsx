@@ -2,6 +2,7 @@ import Image from "next/image";
 import { entry2023, entry2024 } from "@/lib/data";
 import AuthorProfile from "@/components/authorProfile";
 import { Metadata } from "next";
+import Script from "next/script";
 
 export default function Page({
   searchParams,
@@ -65,13 +66,22 @@ function Labari({
 
   return (
     <>
-      {/* <MetaTags
-        title={`${actualItem.author}'s Arts and Vibes Profile`}
-        description={actualItem.bio}
-        imageUrl={`https://www.artsandvibes.com/${actualItem.image}`}
-        url={`https://www.artsandvibes.com/labari/entry?year=${year}&id=${actualItem.id}`}
-        username={actualItem.author}
-      /> */}
+      {/* ✅ Google SEO JSON-LD Schema */}
+      <Script
+        id="json-ld-profile"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Person",
+            name: actualItem.author,
+            description: actualItem.bio,
+            image: `https://www.artsandvibes.com/${actualItem.image}`,
+            url: `https://www.artsandvibes.com/labari/entry?year=${year}&id=${actualItem.id}`,
+          }),
+        }}
+      />
 
       <div
         id="top"
@@ -125,16 +135,6 @@ function Labari({
             alt="twitter"
           />
         </div>
-        {/* <div className="hidden absolute md:block rounded-full md:w-[250px] md:h-[250px] overflow-hidden bottom-3 right-3">
-          <Image
-            src={actualItem && actualItem.image}
-            alt="user"
-            width={250}
-            height={250}
-            quality={100}
-            className="w-full h-full object-cover"
-          />
-        </div> */}
       </div>
     </>
   );
