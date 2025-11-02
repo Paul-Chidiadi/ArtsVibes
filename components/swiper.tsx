@@ -6,8 +6,8 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Import icons 
 const CustomSlider: React.FC = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const slides = [
-    { id: 2, image: "/submit-1.jpeg" },
-    { id: 3, image: "/submit.jpeg" },
+    { id: 2, image: "/who-we-are.jpeg" },
+
   ];
 
   const nextSlide = () => {
@@ -30,7 +30,7 @@ const CustomSlider: React.FC = () => {
         alt="line-image"
       />
 
-      <button
+      {/* <button
         onClick={prevSlide}
         className="absolute left-5 text-primary w-fit h-fit p-2 rounded-full bg-white flex items-center justify-center"
         aria-label="Previous Slide" // Accessibility label
@@ -44,7 +44,7 @@ const CustomSlider: React.FC = () => {
         aria-label="Next Slide" // Accessibility label
       >
         <FaChevronRight size={24} />
-      </button>
+      </button> */}
     </div>
   );
 };

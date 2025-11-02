@@ -168,7 +168,7 @@ We encourage poets to think of identity not as a fixed answer but as a living qu
                 Submission Period:
               </h3>
               <p className="text-smallColor mt-2">
-                Submissions open on <strong>25th October, 2025</strong> and close on <strong>15th December, 2025</strong>. Late entries will not be accepted.
+                Submissions open on <strong>2nd November, 2025</strong> and close on <strong>15th December, 2025</strong>. Late entries will not be accepted.
               </p>
 
               <h3 className="text-xl font-semibold text-faintBlack mt-6">

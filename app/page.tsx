@@ -18,11 +18,11 @@ export default function Home() {
             <h1 className="font-lato font-bold text-black text-xl md:text-3xl">
               {/* <i className="bx bxs-bell bx-tada text-3xl md:text-5xl font-bold text-footer"></i> */}
               {"  "}
-              Labari Prize for Poetry 2024
+              Labari Prize for Poetry 2025
             </h1>
 
             <p className="w-full font-lato text-base md:text-xl text-black italic mt-5">
-              <span className="font-semibold">"Mindscapes of the North"</span>{" "}
+              <span className="font-semibold">"Who are we?"</span>{" "}
               invites us to reveal the complex layers of thoughts, emotions, and
               lived experiences of Arewa. It encourages poets to explore the
               collective cultural identity shaped by shared beliefs,
@@ -32,7 +32,7 @@ export default function Home() {
               href="/labari"
               className="flex w-fit mt-5 items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base cursor-pointer hover:text-faintBlack"
             >
-              VIEW SHORTLISTED ENTRIES
+              Learn More
             </a>
           </div>
         </div>
