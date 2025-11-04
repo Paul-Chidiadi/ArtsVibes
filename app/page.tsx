@@ -22,11 +22,9 @@ export default function Home() {
             </h1>
 
             <p className="w-full font-lato text-base md:text-xl text-black italic mt-5">
-              <span className="font-semibold">"Who are we?"</span>{" "}
-              invites us to reveal the complex layers of thoughts, emotions, and
-              lived experiences of Arewa. It encourages poets to explore the
-              collective cultural identity shaped by shared beliefs,
-              experiences, and ideologies.
+              
+              This year, the Labari Prize for Poetry invites writers to reflect on the question <span className="font-semibold">"Who are we?"</span>{" "}A call to explore the many layers of our shared and shifting identities as Northerners, Nigerians, and Africans living within a postcolonial reality.
+
             </p>
             <a
               href="/labari"
