@@ -164,7 +164,7 @@ export const entry2023 = [
      They'll find it hard to believe, because it's no longer a reality
     As we gaze ahead to the future, history casts its gaze upon us, and the present rests in our hands.`,
   },
-];
+]
 
 export const entry2024 = [
   {
@@ -501,4 +501,375 @@ export const entry2024 = [
     bending but unbroken.
     `,
   },
-];
+]
+
+export const entry2025 = [
+  {
+    id: 1,
+    isWinner: true,
+    title: "Beneath The Sahel Sun",
+    author: "CP Nwankwo",
+    bio: "",
+    image: "/2025/CP Nwankwo.jpeg",
+    content: `
+I still wake with the slice of memories,
+propped in the sweltering tongues of dust.
+They say to be born in the sequence of death
+is the only consequence of birth, of twinging
+carefully like prayers stranded in an alms bowl.
+I'm afraid of the things familial with language:
+my father first, and his attempt to live briefly
+inside the minutes of a flying bullet.
+Then a small-sized mulch of hope,
+flaying like harmattan at the northern edge
+of harm. I bet the sky has done us numbers.
+Maybe the 000 hours of wutar dare only fall
+as crackles, grace and grief in a broken man's
+kettle. How many amin should I carry in my
+soul and not feel the burden of a stranger
+in my hometown? Sing me the road to Papiri,
+sing it softly, for I want to be happy.
+Replace me with the old records of smoke:
+Suya. Kilishi. Durbar. And the teething
+laughter of the smallest unit of a kitchen fire.
+I still wake with the same measured exits
+of absence. Sometimes I'm only Hausa
+because I'm pretending to be loved,
+held close to the last meal before a mother's
+hand grows cold. Things are running out
+of hand, yet home has called me welcome
+an awful million times. Once, a man asked
+me where I am from. I gave him my body.
+At least the body is never a fig tree of its
+own history. It carves its skin in the sight
+of blood and sand. I hope one day I'll be
+saved by light even knowing the sinfulness
+of this scorching sun. My dreams are still
+valid and beautiful, still knowing how to
+wait under a baobab tree for those little
+moonlight stories that once made me whole.
+`,
+  },
+  {
+    id: 2,
+    isWinner: false,
+    title: "A Theory of Self as Broken Light",
+    author: "Ismail Yusuf Olumoh",
+    bio: "",
+    image: "/2025/Ismail Yusuf Olumoh.jpg",
+    content: `
+if not brief interruptions in the silence of the world,
+would our breath have returned itself to dust? sometimes,
+I think we are just the divergence of a memory we do not
+remember being born into. or maybe we are a borrowed
+history, wearing our skin like a borrowed coat. our unspoken
+grief standing quietly at the back of the throat. & we call it
+"identity." don't you know that even the word trembles
+when you press it too hard? if you ask me who we are,
+I will tell you we are a thousand unfinished prayers
+braiding themselves into our spines. we are the broken
+metaphors hidden under the tongue because the world
+taught us fear before longing. aren't we the fingerprints
+of strangers who loved us before we learned to name them
+ancestors? we are the shadows of children still searching
+for language in the rubble of their first heartbreak: the heat
+of the broken glass still warm in their palms. a child pocketing
+broken syllables from the floor the way other children pocket
+marbles. maybe we are just the soft ache between two breaths
+waiting for someone to call it "belonging." we are a body
+of doubts searching for a language that can baptize us
+into meaning. maybe we are just a procession of metaphors
+learning to survive inside a wound. I think we are the aftertaste
+of history. I agree, there is no place like home, even smoke
+knows how to fold back into the air & call that disappearance
+a homecoming. I think we are the children of a brutal tenderness:
+carving our bones into a metaphor & never teaches us how to stop
+shaking. if you press a stethoscope to our future, you will hear a choir
+of trembling & a brief flicker of consciousness between two eternities
+of nothing. & look how we still try to call this little flicker: life.
+`,
+  },
+  {
+    id: 3,
+    isWinner: false,
+    title: "The Day Begins Here with Tenderness",
+    author: "Joemario Umana",
+    bio: "",
+    image: "/2025/Joemario Umana.jpeg",
+    content: `
+The day begins here with tenderness,
+                       with greetings as long as your arm—
+ina kwana, lafiya kalau.  ya ke jiya, lafiya kalau.
+ya kwana biyu, lafiya kalau.  ya kake,
+lafiya kalau.  ya gidanku, lafiya kalau—
+petaled smiles and blue optimism, kindness of a stranger paying your transport fare
+and softness dressed in kaftans, hijabs, and jalabiya. I, a child of water,
+a nyamiri far from home, can’t help but marvel in this language fluently
+spoken. Here, peace, the lushness of morning when the muezzin braids the air
+with prayer. I walk through it like someone searching for the mouth of a river,
+hoping that gentleness can be carried southward like birds swimming in the wind.
+But my country refuses to soften. It holds its wound the way a mother holds a child.
+Everywhere I turn, the news is another body, another city learning how to set itself
+on fire. How do you tell a nation to breathe when its lungs are full of smoke?
+I wish the calm this place now holds could spill over the map, pour itself
+into the cracks of our broken mornings, the same way women pour water
+at their doorsteps at dawn to settle dust. But peace is only a visitor here.
+It sits with us, drinks kunu, laughs, touches our cheeks with cool fingers,
+and when night comes, it packs its small bag and walks away. And yet,
+I keep looking northward, hoping that if I name this softness enough times
+it might grow wings, might descend on the places where boys run with fear
+threaded to their shadows and girls learn to pray with half-closed mouths.
+I am learning that love, too, is a country, one forever on the brink of burning,
+yet I stand in its fields, gathering every gentle thing I can find like someone
+saving light for a future that refuses to arrive.
+`,
+  },
+  {
+    id: 4,
+    isWinner: false,
+    title: "A Brief Archaeology of the Throat",
+    author: "Paul Olayimika",
+    bio: "",
+    image: "/2025/Olayimika Paul_Headshot.jpg",
+    content: `
+open your mouth.
+shine a light down the corridor of old vowels.
+
+we are brushing the dust off buried syllables,
+sifting through the sediments of borrowed tongues,
+looking for the sound that belonged to us
+before somebody footnoted it, italicised it,
+filed it under "native dialect"
+in some office that has never tasted our sun.
+
+but the shovel hits my father's silence—
+that small, disciplined cough
+he rehearsed before offering his name
+to the man in the crisp uniform.
+as if one wrong consonant could
+cost him something tender.
+
+and isn't that our world?
+where "K-K-Kano" catches in the BBC broadcaster's throat
+because our cities never fit their grammar.
+where a border drawn in a fogged room
+far from the dust of our markets
+became a scar we now walk along barefoot.
+
+we are the names bent out of shape in the archive—
+"Bello" flattened into "Bellow",
+"Gbenga" declawed to "Benga".
+to speak of our ancestors now is to rinse
+the registrar's ink from the wounds of our tongues.
+
+and yes, we are contradictions—
+children raised in the blast radius
+who still argued this morning about
+whose jollof was definitive.
+(this, too, is a way to survive:
+to insist on flavour in a mouth full of ash).
+
+so who are we?
+the paint peeling like a prophecy off the secretariat wall,
+history flaking straight into our palms,
+the harmattan stripping the bricks clean,
+searching for the mud beneath the government gloss.
+
+we are not your fixed answer.
+we are the question stretching its limbs,
+the throat clearing itself after generations of dust,
+after centuries of being mispronounced.
+`,
+  },
+  {
+    id: 5,
+    isWinner: false,
+    title: "Central Market, Kaduna",
+    author: "Sarah Adeyemo",
+    bio: "",
+    image: "/2025/Sarah Adeyemo.jpg",
+    content: `
+Savoury, the sweet hours of bargaining.
+The world stood still.
+So still you could see the market alive & glorious;
+fresh fishes from river gasping for home,
+meaning, anything is liable to displacement.
+Beside the fish seller stall,
+a vegetable seller preaches the miracle
+that holds a withered water leaf in a pot of soup.
+As if to prove Joy Harjo's theory
+that the world begins at a kitchen table.
+That even a dead thing could be given life in the kitchen.
+I am one of her believers haggling the price of a dead thing to be revived.
+Somewhere else, a pepper seller curses a woman
+who haggled his price down by half.
+The world focuses on his anger
+forgetting the calamity that the mouth holds.
+Forgetting we are all bounded by the curse of the creator;
+the gunmen will come again & the traders will forsake their goods for safety.
+At the end, a mother would not return. Or a mother would return
+with a bruised body and a dead child in her hand.
+A family will count their loss in multitude.
+I will carry the burden of death in my basket
+in place of yam tubers. The gun will continue to do its work.
+I will be among those who devote their life to Psalm 91,
+pleading to be salvaged from the snare of the fowler.
+`,
+  },
+  {
+    id: 6,
+    isWinner: false,
+    title: "We, The Untranslated",
+    author: "Abdulwasiu Abdulganiyy Olanrewaju",
+    bio: "",
+    image: "/2025/Abdulwasiu Abdulganiyy Olanrewaju.jpg",
+    content: `
+We are the echo between languages,
+
+names carried on tongues that no longer remember their weight.
+
+Our mothers taught us silence as survival,
+our fathers taught us laughter that hides the bruise.
+
+We walk through dust that once had kingdoms,
+and call it progress when the dust rises again.
+The moon knows our stories better than the census,
+It counts our ghosts more faithfully than our governments.
+
+Who are we,
+
+when our gods now scroll through timelines?
+Even the sacred now needs passwords.
+When our children baptize their dreams
+In Wi-Fi and war?
+
+We are the distance between memory and invention,
+
+half proverb, half password.
+Our laughter travels in the dialect of endurance,
+Our grief wears an agbada to church.
+
+In Kaduna's harmattan, our shadows speak Hausa.
+In Lagos rain, our hope smells of diesel and salt.
+We are still the river that refuses to dry,
+even when the sky forgets our name.
+
+Our bones are archives.
+Our scars are signatures.
+We are borrowed English dreaming in Hausa,
+broken Yoruba still humming home.
+We are markets and metaphors,
+noise and nostalgia,
+
+a continent of mirrors, smudged by history.
+
+Who are we?
+
+We are the question that keeps surviving.
+We are clay learning to forgive the fire,
+and flame forgiving the form.
+
+Our story is not finished,
+We write on wind and wall,
+line by line,
+
+with breath that refuses translation.
+`,
+  },
+  {
+    id: 7,
+    isWinner: false,
+    title: "To Know Kindness",
+    author: "Ewa Gerald Onyebuchi",
+    bio: "",
+    image: "/2025/Ewa Gerald Onyebuchi.jpg",
+    content: `
+To know Kindness
+
+You'd have to watch your world dissolve
+into a pile of broken bones and then lose it
+To a bird ferrying them with its beak across the sea to rebuild its nest
+Your favourite cat goes missing
+The grocery store downtown folds up because
+Their customers have fled the country
+& soon the town becomes a ghost of memories
+
+Every day the little boy guides his blind father
+around the market begging for alms
+But no eye pays them heed or the empty bowl in the boy's hand
+What should come first, the shredded wall or the parched lips begging for water?
+Everything is marked by time
+
+Watch the girl on the train stare
+at the boy sapping on his ice cream with relish
+& notice how his face dissolves into pity as he extends it to her
+As his mother scolds him with her eyes and pulls him towards herself
+
+There's so much grief in the world—brothers losing sisters, husbands separated
+From their wives during war 
+but I sit with my phone on a Saturday morning,
+munching a soulless pie and watching a boring soap opera
+And combing through my friend's Instagram feed, missing a life that was
+
+Pried from my grasp like a tender vine from the earth
+Sometimes I flinch on a busy street, in the swirl of bodies
+Brushing past me, like a ship in the belly of the sea
+When a stranger leans in to hand my fallen scarf to me
+
+My gratitude becomes fired clay trapped in my mouth and the
+Confused man leaves without a word
+My mother sits all day in front of the television.
+She doesn't face me when I tiptoe across
+The room, like a mouse because I don't want to disrupt the sprawling silence.
+She calls me Yūsuf when I plant a kiss on her forehead and inhale
+
+The dew of old age and pomade in her greying hair.
+I let her run her fingers down my face, her face splitting in a smile as
+I assume the status of my dead brother
+But the smile dissolves and her voice calcify,
+you are not Yūsuf, you're not my boy
+
+She almost arrives at a breaking, her voice thinning into tears when I gather her
+In my arms and serenade her with songs until she falls asleep
+But this is not the version of the story the media shows you
+The pain of carrying a loss so great it hunches you
+Strips you of agency and leaves you floating and floating
+
+Buoyed on the fragile wings of survival
+And yet, nobody teaches you how to come back
+from the loss of a father, a brother
+A doting grandmother & the world just moves on
+Like nothing happened
+
+Perhaps that's the curse of war; not the carnage, not the properties ruined
+Not the media reducing dead bodies into mere statistics
+As though they were not formally people with souls and dreams
+But the silence of palms folding under the table
+
+What better way to butter grief than to turn your back to a wailing child?
+Like the sun, I am reminded that the dead live in dogeared photographs,
+in the silence of walls reduced to dust in the shadows frittering back and forth
+between the pantry and the living room,
+when the nights become longer
+and your bed brims with memories of the street of Darfur,
+the laughter of children echoing
+through walls, in conversations held under swaying trees
+In the muezzin's cry for prayer,
+
+In the palm of a country that cuddles and pokes you. The store attendant's
+gaze lingering at me for too long as I receive the meds for my mother,
+as though I am a foreign thing,
+As though determined to disrobe me
+To sponge me clean of my faith
+
+The British girl in physics class, who mispronounces my name every time,
+Amia, instead of Amira
+and apologizes as if my heart was made for torture and shame
+Because Allah is all beneficent and merciful
+
+To know kindness,
+You'd have to experience pain, rejection, watch what you love
+Grow still and cold and colourless.
+`,
+  },
+]

@@ -1,27 +1,37 @@
-import Image from "next/image";
-import { entry2023, entry2024 } from "@/lib/data";
-import AuthorProfile from "@/components/authorProfile";
-import { Metadata } from "next";
-import Script from "next/script";
+import Image from "next/image"
+import { entry2023, entry2024, entry2025 } from "@/lib/data"
+import AuthorProfile from "@/components/authorProfile"
+import { Metadata } from "next"
+import Script from "next/script"
 
 export default function Page({
   searchParams,
 }: {
-  searchParams: { year?: string; id?: string };
+  searchParams: { year?: string; id?: string }
 }) {
-  return <Labari searchParams={searchParams} />;
+  return <Labari searchParams={searchParams} />
 }
 
 // Add generateMetadata function
+const getDataByYear = (year?: string) => {
+  if (year === "2025") return entry2025
+  if (year === "2024") return entry2024
+  return entry2023
+}
+
 export async function generateMetadata({
   searchParams,
 }: {
-  searchParams: { year?: string; id?: string };
+  searchParams: { year?: string; id?: string }
 }): Promise<Metadata> {
-  const year = searchParams.year;
-  const id = searchParams.id;
-  const data = year === "2024" ? entry2024 : entry2023;
-  const actualItem = data && data.filter((item) => item.id === Number(id))[0];
+  const year = searchParams.year
+  const id = searchParams.id
+  const data = getDataByYear(year)
+  const actualItem = data && data.filter((item) => item.id === Number(id))[0]
+
+  if (!actualItem) {
+    return { title: "Labari Prize Entry | Arts and Vibes" }
+  }
 
   return {
     title: `${actualItem.author}'s Arts and Vibes Profile`,
@@ -36,7 +46,7 @@ export async function generateMetadata({
           height: 630,
         },
       ],
-      url: `https://www.artsandvibes.com/labari/entry?year=${year}&${actualItem.id}`,
+      url: `https://www.artsandvibes.com/labari/entry?year=${year}&id=${actualItem.id}`,
       siteName: "Arts and Vibes",
       locale: "en_US",
       type: "article",
@@ -51,18 +61,26 @@ export async function generateMetadata({
       "og:type": "profile",
       "profile:username": actualItem.author,
     },
-  };
+  }
 }
 
 function Labari({
   searchParams,
 }: {
-  searchParams: { year?: string; id?: string };
+  searchParams: { year?: string; id?: string }
 }) {
-  const year = searchParams.year;
-  const id = searchParams.id;
-  const data = year === "2024" ? entry2024 : entry2023;
-  const actualItem = data && data.filter((item) => item.id === Number(id))[0];
+  const year = searchParams.year
+  const id = searchParams.id
+  const data = getDataByYear(year)
+  const actualItem = data && data.filter((item) => item.id === Number(id))[0]
+
+  if (!actualItem) {
+    return (
+      <div className="relative w-full px-8 py-7 md:px-20 md:py-28 mt-12 text-center">
+        <p className="text-lg text-smallColor">Entry not found.</p>
+      </div>
+    )
+  }
 
   return (
     <>
@@ -95,7 +113,7 @@ function Labari({
           {actualItem && actualItem.author}
         </h4>
 
-        <p className="w-full font-lato font-medium text-[10px] md:text-lg text-black text-left mt-5 md:mt-10 whitespace-pre-wrap">
+        <p className="font-lato font-medium text-md md:text-lg text-black text-left mx-auto mt-5 md:mt-10 whitespace-pre-wrap">
           {actualItem && actualItem.content}
         </p>
 
@@ -137,5 +155,5 @@ function Labari({
         </div>
       </div>
     </>
-  );
+  )
 }

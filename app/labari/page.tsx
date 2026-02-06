@@ -3,10 +3,10 @@
 import { useState } from "react";
 import Image from "next/image";
 import EntryCard from "@/components/entrycard";
-import { entry2023, entry2024 } from "@/lib/data";
+import { entry2023, entry2024, entry2025 } from "@/lib/data";
 
 export default function Labari() {
-  const [activeTab, setActiveTab] = useState("2024");
+  const [activeTab, setActiveTab] = useState("2025");
 
   return (
     <>
@@ -269,6 +269,16 @@ We encourage poets to think of identity not as a fixed answer but as a living qu
         <div className="w-full px-1 py-7 md:px-20 md:pb-28">
           <div className="flex justify-center space-x-6 mb-8">
             <button
+              onClick={() => setActiveTab("2025")}
+              className={`px-5 md:px-6 py-2 font-gothic text-xs md:text-lg rounded ${
+                activeTab === "2025"
+                  ? "bg-primary text-white"
+                  : "bg-gray-200 text-black"
+              }`}
+            >
+              2025
+            </button>
+            <button
               onClick={() => setActiveTab("2024")}
               className={`px-5 md:px-6 py-2 font-gothic text-xs md:text-lg rounded ${
                 activeTab === "2024"
@@ -370,6 +380,32 @@ We encourage poets to think of identity not as a fixed answer but as a living qu
                         bio={item.bio}
                         title={item.title}
                         year={2024}
+                        id={item.id}
+                        image={item.image}
+                      />
+                    );
+                  })}
+              </div>
+            </div>
+          )}
+
+          {/* Shortlisted Entries 2025 */}
+          {activeTab === "2025" && (
+            <div>
+              <h1 className="w-full p-4 font-gothic text-3xl md:text-6xl text-black text-center">
+                Shortlisted Entries 2025
+              </h1>
+              <div className="flex flex-wrap gap-8 w-full justify-evenly items-start py-12">
+                {entry2025 &&
+                  entry2025.map((item) => {
+                    return (
+                      <EntryCard
+                        key={item.id}
+                        isWinner={item.isWinner}
+                        author={item.author}
+                        bio={item.bio}
+                        title={item.title}
+                        year={2025}
                         id={item.id}
                         image={item.image}
                       />
