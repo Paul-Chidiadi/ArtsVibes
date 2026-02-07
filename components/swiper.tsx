@@ -1,21 +1,18 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa"; // Import icons from react-icons
+"use client"
+import Image from "next/image"
+import { useState } from "react"
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa" // Import icons from react-icons
 
 const CustomSlider: React.FC = () => {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const slides = [
-    { id: 2, image: "/who-we-are.jpeg" },
-
-  ];
+  const [currentSlide, setCurrentSlide] = useState(0)
+  const slides = [{ id: 2, image: "/2025/2025-finalists.jpeg" }]
 
   const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
-  };
+    setCurrentSlide((prev) => (prev + 1) % slides.length)
+  }
   const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  };
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length)
+  }
 
   return (
     <div
@@ -46,7 +43,7 @@ const CustomSlider: React.FC = () => {
         <FaChevronRight size={24} />
       </button> */}
     </div>
-  );
-};
+  )
+}
 
-export default CustomSlider;
+export default CustomSlider

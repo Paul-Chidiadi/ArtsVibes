@@ -1,12 +1,19 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import EntryCard from "@/components/entrycard";
 import { entry2023, entry2024, entry2025 } from "@/lib/data";
 
 export default function Labari() {
   const [activeTab, setActiveTab] = useState("2025");
+
+  useEffect(() => {
+    if (typeof window !== "undefined" && window.location.hash === "#entries") {
+      const el = document.getElementById("entries");
+      el?.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
 
   return (
     <>
@@ -264,7 +271,7 @@ We encourage poets to think of identity not as a fixed answer but as a living qu
       </div>
 
 
-      <div className="w-full  px-8 py-7 md:px-20 md:pb-28">
+      <div id="entries" className="w-full  px-8 py-7 md:px-20 md:pb-28">
         {/* Tabs Section */}
         <div className="w-full px-1 py-7 md:px-20 md:pb-28">
           <div className="flex justify-center space-x-6 mb-8">

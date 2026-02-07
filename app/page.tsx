@@ -1,5 +1,5 @@
-import Image from "next/image";
-import Swiper from "../components/swiper";
+import Image from "next/image"
+import Swiper from "../components/swiper"
 
 export default function Home() {
   return (
@@ -22,16 +22,27 @@ export default function Home() {
             </h1>
 
             <p className="w-full font-lato text-base md:text-xl text-black italic mt-5">
-              
-              This year, the Labari Prize for Poetry invites writers to reflect on the question <span className="font-semibold">"Who are we?"</span>{" "}A call to explore the many layers of our shared and shifting identities as Northerners, Nigerians, and Africans living within a postcolonial reality.
-
+              This year, the Labari Prize for Poetry invites writers to reflect
+              on the question{" "}
+              <span className="font-semibold">"Who are we?"</span> A call to
+              explore the many layers of our shared and shifting identities as
+              Northerners, Nigerians, and Africans living within a postcolonial
+              reality.
             </p>
-            <a
-              href="/labari"
-              className="flex w-fit mt-5 items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base cursor-pointer hover:text-faintBlack"
-            >
-              Learn More
-            </a>
+            <div className="flex flex-row items-center  gap-2">
+              <a
+                href="/labari#entries"
+                className="flex w-fit mt-5 items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base cursor-pointer hover:text-faintBlack"
+              >
+                View Shortlisted Entries
+              </a>
+              <a
+                href="/labari"
+                className="flex w-fit mt-5 items-center justify-center bg-primary px-4 py-1 border-2 border-black rounded-lg font-lato font-medium text-black text-base cursor-pointer hover:text-faintBlack"
+              >
+                Learn More
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -373,5 +384,5 @@ export default function Home() {
         </a>
       </div>
     </>
-  );
+  )
 }
