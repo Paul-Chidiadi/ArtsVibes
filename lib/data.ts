@@ -509,7 +509,7 @@ export const entry2025 = [
     isWinner: true,
     title: "Beneath The Sahel Sun",
     author: "CP Nwankwo",
-    bio: "",
+    bio: "CP Nwankwo (he/him), SWAN IV, identifies as an apprentice poet. He writes from Port Harcourt, Nigeria. He was recently shortlisted for the Alpine Fellowship Prize for Poetry, 2025; a BotN-nominee whose work is published/forthcoming in Frontier Poetry, Palette Poetry, Mizna, Magma, Heartlines Spec, Strange Horizon, Reckoning, Consequence Forum, Lucky Jefferson, Rough Cut, Another Chicago Magazine, Big Score Lit, Poetry ColumnNND, and elsewhere. He tweets @CP Nwankwo.",
     image: "/2025/CP Nwankwo.jpeg",
     content: `
 I still wake with the slice of memories,
@@ -555,7 +555,7 @@ moonlight stories that once made me whole.
     isWinner: false,
     title: "A Theory of Self as Broken Light",
     author: "Ismail Yusuf Olumoh",
-    bio: "",
+    bio: "Ismail Yusuf Olumoh, SWAN VII, is a writer and teacher pursuing a DVM at the University of Maiduguri. He won the Babatunde Babafemi Educational Foundation's Prize for Poetry (2024) and the Folio Literary Journal Poetry Prize (2025). His works appear/forthcoming in South Carolina Review, Bore Score Lit, April Centaur, Agbowó Magazine, Eye To The Telescope, Palette Poetry, Brittle Paper, Shallow Tale Reviews, Eunoia Review, Rowayat, Strange Horizons, and others. He is a reader in ONLY POEM. He writes from Ilorin, Kwara State. You can read him here: linktr.ee/icreatives0",
     image: "/2025/Ismail Yusuf Olumoh.jpg",
     content: `
 if not brief interruptions in the silence of the world,
@@ -594,14 +594,16 @@ of nothing. & look how we still try to call this little flicker: life.
     isWinner: false,
     title: "The Day Begins Here with Tenderness",
     author: "Joemario Umana",
-    bio: "",
+    bio: "Joemario Umana, Swan XVII, is a Nigerian creative writer and a performance poet who considers himself a wildflower. His works have appeared in Prairie Schooner, Chestnut Review, Orange Blossom Review, Frontier Poetry, Uncanny Magazine, LOLWE, Strange Horizons, South Florida Poetry Journal, Ubwali Lit, ONE ART journal, Akpata Magazine, Poetry Sango-Ota, Poetry Column-NND, trampset and elsewhere. He was shortlisted for the Kayode Aderinokun Poetry Prize and the Akachi Chukwuemeka Prize for literature, 2025. When life gives him a breathing space, he roams the streets of twitter as @JoemarioU38615.",
     image: "/2025/Joemario Umana.jpeg",
     content: `
 The day begins here with tenderness,
+
                        with greetings as long as your arm—
 ina kwana, lafiya kalau.  ya ke jiya, lafiya kalau.
 ya kwana biyu, lafiya kalau.  ya kake,
 lafiya kalau.  ya gidanku, lafiya kalau—
+
 petaled smiles and blue optimism, kindness of a stranger paying your transport fare
 and softness dressed in kaftans, hijabs, and jalabiya. I, a child of water,
 a nyamiri far from home, can’t help but marvel in this language fluently
@@ -629,7 +631,7 @@ saving light for a future that refuses to arrive.
     isWinner: false,
     title: "A Brief Archaeology of the Throat",
     author: "Paul Olayimika",
-    bio: "",
+    bio: "Paul Olayimika is a poet, brand designer, and medical student at the University of Jos. His writing explores the intersections of the body and memory, often bringing an anatomical precision to themes of identity and culture. A growing voice in contemporary African poetry, Olayimika has been longlisted for the 2025 African Human Rights Poetry Competition (IHRAM) and the 2026 Joe Ushie Poetry Prize. His work is published in the December 2025 edition of the WSA Literary Magazine. When he is not studying the mechanics of the human body or crafting visual identities, he is immersed in the thrill of Formula 1. He hails from Ekiti State, Nigeria.",
     image: "/2025/Olayimika Paul_Headshot.jpg",
     content: `
 open your mouth.
@@ -686,7 +688,7 @@ after centuries of being mispronounced.
     isWinner: false,
     title: "Central Market, Kaduna",
     author: "Sarah Adeyemo",
-    bio: "",
+    bio: 'Sarah Adeyemo, SWAN IX, is a Nigerian poet, editor, writer, and spoken word artiste. The debut author of "The Shape of Silence". She draws inspiration from solitude and experiences. She is a fellow of the SprinNG Writing Fellowship. Sarah has work published/forthcoming in The Shallow Tales Review, The Muse Journal, The Weganda Review, Everscribe Magazine, Afrillhill Press, Poems For Persons Interest, Northern Writers Forum Journal, Eboquills, Rinna Lit. Anthologies, and elsewhere.',
     image: "/2025/Sarah Adeyemo.jpg",
     content: `
 Savoury, the sweet hours of bargaining.
@@ -721,7 +723,7 @@ pleading to be salvaged from the snare of the fowler.
     isWinner: false,
     title: "We, The Untranslated",
     author: "Abdulwasiu Abdulganiyy Olanrewaju",
-    bio: "",
+    bio: "Abdulwasiu Abdulganiyy Olanrewaju (born 31 July 2002) is a Nigerian medical student, writer, and emerging public intellectual whose work bridges science, storytelling, and social advocacy. A native of Igogo-Ekiti in Ekiti State, he spent his formative years in Bida, Niger State, before attending boarding school in Ilorin, Kwara State. He briefly studied at Bayero University, Kano, and later pursued his passion for medicine at the Federal University of Health Sciences, Azare, Bauchi State. Abdulwasiu developed a keen interest in writing from his secondary school days, cultivating a voice marked by clarity, depth, and emotional intelligence. Although he has not yet published formally, he has competed in numerous essay competitions and earned recognition in several of them. His writing frequently explores questions of health, identity, and human flourishing, reflecting his broader commitment to medicine, neurosurgery, and societal development.",
     image: "/2025/Abdulwasiu Abdulganiyy Olanrewaju.jpg",
     content: `
 We are the echo between languages,
@@ -781,7 +783,7 @@ with breath that refuses translation.
     isWinner: false,
     title: "To Know Kindness",
     author: "Ewa Gerald Onyebuchi",
-    bio: "",
+    bio: "Ewa Gerald Onyebuchi is a writer from Southeastern Nigeria. He was a finalist in the 2023 Gerald Kraak Prize and Dream Foundry Contest for Emerging Speculative Fiction Writers.",
     image: "/2025/Ewa Gerald Onyebuchi.jpg",
     content: `
 To know Kindness

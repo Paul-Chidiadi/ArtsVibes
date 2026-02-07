@@ -113,7 +113,10 @@ function Labari({
           {actualItem && actualItem.author}
         </h4>
 
-        <p className="font-lato font-medium text-md md:text-lg text-black text-left mx-auto mt-5 md:mt-10 whitespace-pre-wrap">
+        <p
+          className="font-lato font-medium text-md md:text-lg text-black text-left mx-auto mt-5 md:mt-10 whitespace-pre-wrap"
+          style={{ lineHeight: "2" }}
+        >
           {actualItem && actualItem.content}
         </p>
 
